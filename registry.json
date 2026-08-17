@@ -573,5 +573,15 @@
     "name": "ConditionalPay",
     "one_liner": "Programmable private settlement infrastructure for STRK20.",
     "category": "Infra"
+  },
+  {
+    "repo_url": "https://github.com/justbiar/aegis",
+    "telegram": [
+      "justbiar"
+    ],
+    "name": "Aegis Rescue",
+    "slug": "aegis-rescue",
+    "one_liner": "Whitehat rescue bot: sweeps exposed on-chain funds into the STRK20 shielded pool before attackers can, returns them to verified GitHub owners.",
+    "category": "Tooling"
   }
 ]
