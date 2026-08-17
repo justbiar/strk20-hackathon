@@ -1,5 +1,70 @@
 [
   {
+    "slug": "erebus",
+    "name": "Erebus",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/PoulavBhowmick03/Erebus",
+    "demo_url": "https://erebus-private-agents.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T10:53:15Z",
+    "stars": 2,
+    "builders": [
+      {
+        "login": "PoulavBhowmick03",
+        "name": "PoulavBhowmick03",
+        "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
+      },
+      {
+        "login": "ishitab02",
+        "name": "Ishita",
+        "avatar_url": "https://avatars.githubusercontent.com/u/139248026?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "d1731f4cbd01908b832998975fea5a428d4fb85f",
+    "readme_hash": "9436:# Erebus\n\n**Negotiate in darkness, settle in silence.**\n\nErebus is experimental coordination and shielded-settlement infrastructure for AI agents.\n\n[Open the public demo](https://erebus-private-agents",
+    "churn_pct": 2.8,
+    "summary": "Provide infrastructure for autonomous AI agent negotiations and settlements.",
+    "description_long": "The project enables AI agents to negotiate and settle transactions securely through encrypted channels, ensuring that the negotiation process remains private. It aims to solve the issue of transparency in agent-to-agent commerce by providing atomic settlements and controlled disclosure of transaction details, preventing unauthorized observers from gleaning insights from metadata alone.",
+    "latest_push": "Selected input and changed the payer in the client implementation.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 434,
+    "deletions": 66,
+    "assessment": null
+  },
+  {
     "slug": "strkworld",
     "name": "STRKWORLD",
     "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
@@ -20,7 +85,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T10:02:06Z",
+    "pushed_at": "2026-08-17T10:26:25Z",
     "stars": 0,
     "builders": [
       {
@@ -34,16 +99,16 @@
         "family": "Claude",
         "name": "Claude Opus 5",
         "avatar_url": "",
-        "commits": 30
+        "commits": 33
       }
     ],
     "active_days": [
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "aa637411b0ed5847f668081e1207c9ebd9016368",
+    "head_sha": "39112b55e7fb4dda6eee80090c7e59646d946e6a",
     "readme_hash": "4928:# STRKWORLD\n\n**A 2D top-down city where the buildings are Starknet privacy protocols.**\n\nWalk around a shared pseudonymous world, step into a building, and use a real\nprivacy-preserving protocol with ",
-    "churn_pct": 36.7,
+    "churn_pct": 30.7,
     "summary": "Create a 2D city that simulates Starknet privacy protocols.",
     "description_long": "This project involves building a 2D top-down city where each building represents a privacy protocol on Starknet. The challenge lies in implementing a system where financial buildings can only operate if they have an approved privacy execution path, ensuring that no sensitive data is exposed within the application. The architecture separates concerns among various packages, maintaining a clear boundary between the game mechanics and financial operations.",
     "latest_push": "Deployed scaffolding with header gate, backend container, and ops runbook.",
@@ -60,67 +125,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 3861,
-    "deletions": 19,
-    "assessment": null
-  },
-  {
-    "slug": "booty-bank",
-    "name": "Booty Bank",
-    "one_liner": "Private income credentials and credit eligibility for OnlyFans creators on Starknet.",
-    "category": "Consumer",
-    "repo_url": "https://github.com/welttowelt/booty-bank",
-    "demo_url": "https://bootybank.app/",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T10:00:25Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "welttowelt",
-        "name": "welttowelt",
-        "avatar_url": "https://avatars.githubusercontent.com/u/58338510?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "31e84f64b0c70d5a6442feb7715f3fbd5e6d291b",
-    "readme_hash": "8995:# Booty Bank\n\n> BORROW AGAINST YOUR BBL.\n\nBooty Bank is the primary money account built for OnlyFans creators. The product combines daily banking, creator income, private credit, fan perks, and a post",
-    "churn_pct": 0.5,
-    "summary": "Facilitate income credentialing and credit eligibility for creators.",
-    "description_long": "This project enables OnlyFans creators to manage their income and credit profile using a single account on Starknet. It leverages custom Cairo contracts for secure income credentialing and implements various banking features, which include payments, budgeting, and privacy controls. The challenge lies in ensuring secure and private data validation while complying with the needs of creators beyond traditional banking platforms.",
-    "latest_push": "Named the two onchain legs of a shield and marked live wallet routes.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 26,
-    "deletions": 8,
+    "additions": 4415,
+    "deletions": 5,
     "assessment": null
   },
   {
@@ -183,7 +189,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T09:46:15Z",
+    "pushed_at": "2026-08-17T10:19:17Z",
     "stars": 0,
     "builders": [
       {
@@ -197,9 +203,9 @@
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "e8c19c61e3f0d2be0bac59fbf6d8b1d4d2e625a0",
+    "head_sha": "48e5d63a15371f6c2abca4fde95a7499c1f9fa45",
     "readme_hash": "3815:# Aperture\n\n**Sealed-ballot governance and a shielded treasury for DAOs, native to STRK20.**\n\nBuilt for the STRK20 Private Sprint, August 2026. Day 1 — this repository is\nunder active construction and",
-    "churn_pct": 3.2,
+    "churn_pct": 8.4,
     "summary": "Enable private voting and treasury payouts for DAOs using STRK20's shielded pool.",
     "description_long": "This project implements a private voting system where votes are represented as private transfers, ensuring that choices and weights remain hidden until the tally is published. It also integrates a treasury payout mechanism that anonymizes grant recipients while still revealing payout amounts, addressing the problems of transparency and front-running in traditional on-chain governance.",
     "latest_push": "Deployed both contracts to mainnet and shipped the public demo.",
@@ -221,8 +227,67 @@
       }
     ],
     "has_readme": true,
-    "additions": 102,
-    "deletions": 0,
+    "additions": 241,
+    "deletions": 38,
+    "assessment": null
+  },
+  {
+    "slug": "booty-bank",
+    "name": "Booty Bank",
+    "one_liner": "Private income credentials and credit eligibility for OnlyFans creators on Starknet.",
+    "category": "Consumer",
+    "repo_url": "https://github.com/welttowelt/booty-bank",
+    "demo_url": "https://bootybank.app/",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T10:15:05Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "welttowelt",
+        "name": "welttowelt",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58338510?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "2002a2ad0e767fc9b6848f396059ed802b2c17a9",
+    "readme_hash": "8995:# Booty Bank\n\n> BORROW AGAINST YOUR BBL.\n\nBooty Bank is the primary money account built for OnlyFans creators. The product combines daily banking, creator income, private credit, fan perks, and a post",
+    "churn_pct": 13.3,
+    "summary": "Facilitate income credentialing and credit eligibility for creators.",
+    "description_long": "This project enables OnlyFans creators to manage their income and credit profile using a single account on Starknet. It leverages custom Cairo contracts for secure income credentialing and implements various banking features, which include payments, budgeting, and privacy controls. The challenge lies in ensuring secure and private data validation while complying with the needs of creators beyond traditional banking platforms.",
+    "latest_push": "Named the two onchain legs of a shield and marked live wallet routes.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 417,
+    "deletions": 530,
     "assessment": null
   },
   {
@@ -268,7 +333,6 @@
     ],
     "head_sha": "aee140c1b798820274d685e41a609ed372ef6158",
     "readme_hash": "2777:# VINSS — Private Deal Room on Starknet\n\nTwo parties negotiate, agree on terms, and settle payment inside one\nencrypted timeline. Built on STRK20's privacy pool via application-specific\nCairo helper c",
-    "churn_pct": 0.6,
     "summary": "Facilitate encrypted negotiation and settlement in a private deal room.",
     "description_long": "Two parties can negotiate and settle payments within an encrypted timeline using STRK20's privacy pool. The project uses Cairo helper contracts to manage messaging, offers, and private escrow, while ensuring that sensitive information is encrypted client-side before being sent as calldata. It also includes a server-side agent for analysis and drafting, but without transaction-signing capabilities.",
     "latest_push": "Fixed messaging revenue flow, wallet architecture, and contract test discovery.",
@@ -282,6 +346,7 @@
     "has_readme": true,
     "additions": 34,
     "deletions": 20,
+    "churn_pct": 0.6,
     "assessment": null
   },
   {
@@ -345,7 +410,6 @@
     ],
     "head_sha": "7366962a2100329b541f1341096d80414aa7a651",
     "readme_hash": "6606:# Airlock\n\n**One-click privacy from any chain.** Step in on one chain, the door seals behind you, step out on another. No on-chain link between the two sides.\n\nBuilt on the [STRK20](https://strk20-by-",
-    "churn_pct": 1.6,
     "summary": "Enable cross-chain privacy without on-chain links.",
     "description_long": "This project allows users to bridge assets from one chain to another while ensuring privacy by severing links between deposit and withdrawal addresses. It uses a privacy pool that enables users to engage without ever having to interact directly with the underlying privacy technology. The main challenge tackled here is maintaining anonymity during the deposit and withdrawal processes, especially considering the timing and amount of transactions that could potentially link user activity.",
     "latest_push": "Banked the second verified mainnet transaction in strk20.json.",
@@ -353,71 +417,7 @@
     "has_readme": true,
     "additions": 2,
     "deletions": 1,
-    "assessment": null
-  },
-  {
-    "slug": "erebus",
-    "name": "Erebus",
-    "one_liner": "",
-    "category": "Other",
-    "repo_url": "https://github.com/PoulavBhowmick03/Erebus",
-    "demo_url": "https://erebus-private-agents.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T09:17:42Z",
-    "stars": 2,
-    "builders": [
-      {
-        "login": "PoulavBhowmick03",
-        "name": "PoulavBhowmick03",
-        "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
-      },
-      {
-        "login": "ishitab02",
-        "name": "Ishita",
-        "avatar_url": "https://avatars.githubusercontent.com/u/139248026?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "f8f0cdeaebed8c4b2299cbd5bcff03b40868ab99",
-    "readme_hash": "9436:# Erebus\n\n**Negotiate in darkness, settle in silence.**\n\nErebus is experimental coordination and shielded-settlement infrastructure for AI agents.\n\n[Open the public demo](https://erebus-private-agents",
-    "churn_pct": 3.7,
-    "summary": "Provide infrastructure for autonomous AI agent negotiations and settlements.",
-    "description_long": "The project enables AI agents to negotiate and settle transactions securely through encrypted channels, ensuring that the negotiation process remains private. It aims to solve the issue of transparency in agent-to-agent commerce by providing atomic settlements and controlled disclosure of transaction details, preventing unauthorized observers from gleaning insights from metadata alone.",
-    "latest_push": "Selected input and changed the payer in the client implementation.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 641,
-    "deletions": 24,
+    "churn_pct": 1.6,
     "assessment": null
   },
   {
@@ -2545,65 +2545,6 @@
     "assessment": null
   },
   {
-    "slug": "veilance-market",
-    "name": "Veilance Market",
-    "one_liner": "Private digital services marketplace powered by STRK20 on Starknet",
-    "category": "Payments",
-    "repo_url": "https://github.com/Portablelle/veilance-market",
-    "demo_url": "https://test-ovh.tail3708da.ts.net:10000",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-16T01:51:57Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Portablelle",
-        "name": "Portablelle",
-        "avatar_url": "https://avatars.githubusercontent.com/u/15817250?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16"
-    ],
-    "head_sha": "8e69a245cf4da06aeb8967fa7cc9e91b7a49344f",
-    "readme_hash": "13128:# Veilance Market\n\nExperimental digital-services marketplace preview built around STRK20 on\nStarknet.\n\nVeilance Market is intended to let sellers publish digital services and let buyers\ncomplete deliv",
-    "summary": "Create a digital marketplace that maintains buyer and seller privacy.",
-    "description_long": "Veilance Market allows sellers to offer digital services while ensuring buyer and seller identities remain confidential. By utilizing STRK20 private balances for escrow and settlements, the project addresses the challenge of exposing wallet addresses in traditional on-chain marketplaces. This project involves complex authorization models to separate decision-making from payment destination, ensuring that funds are securely tied to commercial agreements without compromising personal information.",
-    "latest_push": "Hardened escrow integration paths and added qualification for browser testing.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 2700,
-    "deletions": 208,
-    "churn_pct": 17.7,
-    "assessment": null
-  },
-  {
     "slug": "veilpay",
     "name": "VeilPay",
     "one_liner": "Private payroll with scoped disclosure. Public can verify a run; only the payee or auditor can open a slice.",
@@ -4159,6 +4100,50 @@
     "additions": 1408,
     "deletions": 95,
     "churn_pct": 3,
+    "assessment": null
+  },
+  {
+    "slug": "veilance-market",
+    "name": "Veilance Market",
+    "one_liner": "",
+    "category": "Payments",
+    "repo_url": "https://github.com/Portablelle/veilance-market",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Portablelle",
+        "name": "Portablelle",
+        "avatar_url": "https://avatars.githubusercontent.com/u/15817250?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [],
+    "head_sha": null,
+    "readme_hash": "",
+    "churn_pct": 0,
+    "summary": "Create a digital marketplace that maintains buyer and seller privacy.",
+    "description_long": "Veilance Market allows sellers to offer digital services while ensuring buyer and seller identities remain confidential. By utilizing STRK20 private balances for escrow and settlements, the project addresses the challenge of exposing wallet addresses in traditional on-chain marketplaces. This project involves complex authorization models to separate decision-making from payment destination, ensuring that funds are securely tied to commercial agreements without compromising personal information.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
     "assessment": null
   }
 ]
