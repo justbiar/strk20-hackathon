@@ -1,172 +1,5 @@
 [
   {
-    "slug": "starkwhisper",
-    "name": "StarkWhisper",
-    "one_liner": "Metadata-resistant, end-to-end encrypted messaging & private payment memos on Starknet.",
-    "category": "Consumer",
-    "repo_url": "https://github.com/dino1x/starkwhisper",
-    "demo_url": "https://starkwhisper.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "RFP-01",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x78ae662e0cc6d1ab2cfeaf2a51ba8783d88e31886f88a794d142f95a6f8735b",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T15:24:35Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "dino1x",
-        "name": "dino1x",
-        "avatar_url": "https://avatars.githubusercontent.com/u/140521069?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "04034a433030ec8b733633eafd1e8d75f55fec8d",
-    "readme_hash": "4396:# StarkWhisper\n\n> **Metadata-Resistant, End-to-End Encrypted On-Chain Messaging & Private Payment Memos on Starknet**\n\n![Starknet](https://img.shields.io/badge/Starknet-Mainnet%20%2F%20Sepolia-c53400?",
-    "churn_pct": 1,
-    "summary": "Facilitate private messaging and payment memos on Starknet.",
-    "description_long": "This project uses the STRK20 Privacy Pool for secure, metadata-resistant messaging and payments on Starknet. It combines encrypted messaging with private STRK transfers in a single zero-knowledge transaction, ensuring sender and recipient identities are protected. The infrastructure includes a client-side crypto engine and integration with Starknet wallets, providing a seamless experience for users.",
-    "latest_push": "Enforced 100% pool routing for sender anonymity and fixed several bugs.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 17,
-    "deletions": 21,
-    "assessment": null
-  },
-  {
-    "slug": "ownerz",
-    "name": "Ownerz",
-    "one_liner": "Privacy-first data marketplace on Starknet with post-quantum encryption and STRK20 payments.",
-    "category": "Consumer",
-    "repo_url": "https://github.com/cxto21/ownerz",
-    "demo_url": "https://ownerz.pages.dev",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T15:21:03Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "naiamproducts",
-        "name": "naiam-studio",
-        "avatar_url": "https://avatars.githubusercontent.com/u/209201511?v=4"
-      },
-      {
-        "login": "cxto21",
-        "name": "Naiam | Ignacio",
-        "avatar_url": "https://avatars.githubusercontent.com/u/101372852?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-17"
-    ],
-    "head_sha": "54f9cd432b05e7544c48953f77b5d66bd88d0b90",
-    "readme_hash": "2265:# Ownerz — Sell Files. Post-Quantum Delivery.\n\n## Core Value\nA marketplace where anyone can monetize private data on blockchain with anonymous transactions, no intermediaries, no hidden costs.\n\n## How",
-    "churn_pct": 1,
-    "summary": "Facilitates anonymous data transactions using Starknet and post-quantum encryption.",
-    "description_long": "Users upload encrypted files to Filecoin, connect their Starknet wallet, and only share a CID and price on the smart contract. Purchases are made anonymously using ZK-proofs, with buyers receiving decryption keys securely after payment. The system ensures that data remains encrypted on IPFS and is only accessible to verified buyers.",
-    "latest_push": "Deployed Cloudflare Pages with critical bug fixes and a hackathon popup.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 0,
-    "deletions": 36,
-    "assessment": null
-  },
-  {
     "slug": "philoxenia",
     "name": "philoxenia",
     "one_liner": "Private P2P hospitality on Starknet — STRK20 Private Sprint",
@@ -220,7 +53,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T15:18:21Z",
+    "pushed_at": "2026-08-17T15:42:28Z",
     "stars": 0,
     "builders": [
       {
@@ -234,7 +67,7 @@
         "family": "Cursor",
         "name": "Cursor",
         "avatar_url": "",
-        "commits": 98
+        "commits": 99
       }
     ],
     "active_days": [
@@ -243,7 +76,7 @@
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "7005d741192a7e2d89127e19c7165aa72a4dc947",
+    "head_sha": "041167781d15aa3a419730cc683b11007de5eea7",
     "readme_hash": "9274:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
     "churn_pct": 0.2,
     "summary": "Facilitate private peer-to-peer hospitality on Starknet.",
@@ -257,23 +90,28 @@
       }
     ],
     "has_readme": true,
-    "additions": 12,
-    "deletions": 11,
+    "additions": 14,
+    "deletions": 13,
     "assessment": null
   },
   {
-    "slug": "veilcast",
-    "name": "Veilcast",
-    "one_liner": "Private prediction markets on Starknet: visible odds, invisible bettors.",
-    "category": "DeFi",
-    "repo_url": "https://github.com/zkasuran/veilcast",
-    "demo_url": "https://zkasuran.github.io/veilcast/",
+    "slug": "starkwhisper",
+    "name": "StarkWhisper",
+    "one_liner": "Metadata-resistant, end-to-end encrypted messaging & private payment memos on Starknet.",
+    "category": "Consumer",
+    "repo_url": "https://github.com/dino1x/starkwhisper",
+    "demo_url": "https://starkwhisper.vercel.app",
     "demo_video": "",
     "x_handle": "",
-    "inspired_by": "RFP-07",
+    "inspired_by": "RFP-01",
     "starred": false,
     "star_reason": "",
-    "contracts": [],
+    "contracts": [
+      {
+        "address": "0x78ae662e0cc6d1ab2cfeaf2a51ba8783d88e31886f88a794d142f95a6f8735b",
+        "network": "mainnet"
+      }
+    ],
     "transactions": [],
     "verified_txs": 0,
     "requirements": {
@@ -282,28 +120,26 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T15:11:21Z",
+    "pushed_at": "2026-08-17T15:41:43Z",
     "stars": 0,
     "builders": [
       {
-        "login": "zkasuran",
-        "name": "zkasuran",
-        "avatar_url": "https://avatars.githubusercontent.com/u/289388318?v=4"
+        "login": "dino1x",
+        "name": "dino1x",
+        "avatar_url": "https://avatars.githubusercontent.com/u/140521069?v=4"
       }
     ],
     "agents": [],
     "active_days": [
-      "2026-08-14",
-      "2026-08-15",
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "17837376b306c5845db541336cfaac50d1ce21f3",
-    "readme_hash": "11514:# Veilcast\n\nPrivate prediction markets on Starknet. Visible odds, invisible bettors.\n\n> Built for the STRK20 Private Sprint, against the live STRK20 privacy pool.\n\n## What it is\n\nVeilcast is a predict",
-    "churn_pct": 10.2,
-    "summary": "Create private prediction markets with visible odds and anonymous bettors.",
-    "description_long": "Veilcast utilizes Starknet to offer a prediction market where bets are anonymous but betting amounts are public, ensuring honest price signals. The project addresses the challenge of maintaining anonymity for bettors while ensuring the market remains transparent regarding the odds and volume, which allows for accurate betting without the risk of frontrunning. The system employs unique mechanisms such as relayer transactions and privacy-preserving notes to protect user identities while keeping market operations transparent.",
-    "latest_push": "Pointed the hub at the live demo and locked the board's wire format in a test.",
+    "head_sha": "c560dbc9a827f3e3435fb4c19c3ac29dfeb9b0fa",
+    "readme_hash": "4396:# StarkWhisper\n\n> **Metadata-Resistant, End-to-End Encrypted On-Chain Messaging & Private Payment Memos on Starknet**\n\n![Starknet](https://img.shields.io/badge/Starknet-Mainnet%20%2F%20Sepolia-c53400?",
+    "churn_pct": 10.1,
+    "summary": "Facilitate private messaging and payment memos on Starknet.",
+    "description_long": "This project uses the STRK20 Privacy Pool for secure, metadata-resistant messaging and payments on Starknet. It combines encrypted messaging with private STRK transfers in a single zero-knowledge transaction, ensuring sender and recipient identities are protected. The infrastructure includes a client-side crypto engine and integration with Starknet wallets, providing a seamless experience for users.",
+    "latest_push": "Enforced 100% pool routing for sender anonymity and fixed several bugs.",
     "tooling": [
       {
         "label": "get-starknet",
@@ -334,16 +170,11 @@
         "label": "Cairo",
         "live": false,
         "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
       }
     ],
     "has_readme": true,
-    "additions": 792,
-    "deletions": 2,
+    "additions": 345,
+    "deletions": 66,
     "assessment": null
   },
   {
@@ -372,7 +203,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T14:54:50Z",
+    "pushed_at": "2026-08-17T15:41:25Z",
     "stars": 0,
     "builders": [
       {
@@ -386,15 +217,16 @@
         "family": "Claude",
         "name": "Claude Opus 5",
         "avatar_url": "",
-        "commits": 5
+        "commits": 12
       }
     ],
     "active_days": [
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "c251ff961994443d19a6e64a19f1b628a20242de",
+    "head_sha": "3d5e02187aaeda2ba5bf67a3b722fc2aafb789c2",
     "readme_hash": "8224:# zkPayslip\n\nPrivate payroll on Starknet: salaries move invisibly inside the STRK20 privacy pool while any employee can still prove their income to exactly one verifier, once.\n\n## Live deployment\n\n| C",
+    "churn_pct": 0.6,
     "summary": "Enable private payroll verification on Starknet through zk technology.",
     "description_long": "This project allows employees to receive their salaries from a privacy pool while still proving their income to a specific verifier. It achieves privacy for the salary transfers inside the pool, while the contract ensures necessary disclosures for verification without revealing sensitive data. The challenge lies in managing timing correlations and ensuring a larger anonymity set as more transactions occur, addressing these concerns with a structured layer of disclosure.",
     "latest_push": "Deployed the contract to Sepolia and updated related documentation.",
@@ -436,9 +268,177 @@
       }
     ],
     "has_readme": true,
-    "additions": 67,
-    "deletions": 5,
-    "churn_pct": 1.4,
+    "additions": 32,
+    "deletions": 1,
+    "assessment": null
+  },
+  {
+    "slug": "veilcast",
+    "name": "Veilcast",
+    "one_liner": "Private prediction markets on Starknet: visible odds, invisible bettors.",
+    "category": "DeFi",
+    "repo_url": "https://github.com/zkasuran/veilcast",
+    "demo_url": "https://zkasuran.github.io/veilcast/",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "RFP-07",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T15:24:54Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "zkasuran",
+        "name": "zkasuran",
+        "avatar_url": "https://avatars.githubusercontent.com/u/289388318?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "d3337790c1bcb6c45d313c7913380cccee41f0ea",
+    "readme_hash": "12294:# Veilcast\n\nPrivate prediction markets on Starknet. Visible odds, invisible bettors.\n\n> Built for the STRK20 Private Sprint, against the live STRK20 privacy pool.\n\n## What it is\n\nVeilcast is a predict",
+    "churn_pct": 8,
+    "summary": "Create private prediction markets with visible odds and anonymous bettors.",
+    "description_long": "Veilcast utilizes Starknet to offer a prediction market where bets are anonymous but betting amounts are public, ensuring honest price signals. The project addresses the challenge of maintaining anonymity for bettors while ensuring the market remains transparent regarding the odds and volume, which allows for accurate betting without the risk of frontrunning. The system employs unique mechanisms such as relayer transactions and privacy-preserving notes to protect user identities while keeping market operations transparent.",
+    "latest_push": "Pointed the hub at the live demo and locked the board's wire format in a test.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 587,
+    "deletions": 71,
+    "assessment": null
+  },
+  {
+    "slug": "ownerz",
+    "name": "Ownerz",
+    "one_liner": "Privacy-first data marketplace on Starknet with post-quantum encryption and STRK20 payments.",
+    "category": "Consumer",
+    "repo_url": "https://github.com/cxto21/ownerz",
+    "demo_url": "https://ownerz.pages.dev",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T15:21:03Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "naiamproducts",
+        "name": "naiam-studio",
+        "avatar_url": "https://avatars.githubusercontent.com/u/209201511?v=4"
+      },
+      {
+        "login": "cxto21",
+        "name": "Naiam | Ignacio",
+        "avatar_url": "https://avatars.githubusercontent.com/u/101372852?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-17"
+    ],
+    "head_sha": "54f9cd432b05e7544c48953f77b5d66bd88d0b90",
+    "readme_hash": "2265:# Ownerz — Sell Files. Post-Quantum Delivery.\n\n## Core Value\nA marketplace where anyone can monetize private data on blockchain with anonymous transactions, no intermediaries, no hidden costs.\n\n## How",
+    "summary": "Facilitates anonymous data transactions using Starknet and post-quantum encryption.",
+    "description_long": "Users upload encrypted files to Filecoin, connect their Starknet wallet, and only share a CID and price on the smart contract. Purchases are made anonymously using ZK-proofs, with buyers receiving decryption keys securely after payment. The system ensures that data remains encrypted on IPFS and is only accessible to verified buyers.",
+    "latest_push": "Deployed Cloudflare Pages with critical bug fixes and a hackathon popup.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 0,
+    "deletions": 36,
+    "churn_pct": 1,
     "assessment": null
   },
   {
@@ -1472,7 +1472,6 @@
     ],
     "head_sha": "2e493fea1d732228763ef9d85fd99dcccdf568f7",
     "readme_hash": "6803:# Envelope\n\n**Private money you can send as a link, to someone who has never heard of Starknet.**\n\nEnvelope is a [STRK20](https://strk20.starknet.io) anonymizer contract and app.\nYou shield tokens, se",
-    "churn_pct": 0.8,
     "summary": "Send private money through a link with Envelope's anonymizer contract.",
     "description_long": "Envelope uses a STRK20 anonymizer contract to enable private token transfers via unique URLs. It allows users to shield tokens, seal them in an envelope, and send them without revealing the funder’s identity, addressing the challenge of anonymous payments in Starknet. The system ensures that front-running cannot occur through clever cryptographic signatures tied to the recipient, ensuring security and privacy.",
     "latest_push": "Redesigned the mobile app shell and tightened the mobile sealing flow.",
@@ -1491,6 +1490,7 @@
     "has_readme": true,
     "additions": 40,
     "deletions": 40,
+    "churn_pct": 0.8,
     "assessment": null
   },
   {
@@ -3569,7 +3569,7 @@
     "name": "Redpocket",
     "one_liner": "Password red packets: one link, N shares, each claim lands in a shielded STRK20 balance.",
     "category": "Payments",
-    "repo_url": "https://github.com/kevlau1/redpocket",
+    "repo_url": "https://github.com/kevlau1/redpacket",
     "demo_url": "https://redpocket-virid.vercel.app/",
     "demo_video": "",
     "x_handle": "",
