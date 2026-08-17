@@ -1,5 +1,165 @@
 [
   {
+    "slug": "philoxenia",
+    "name": "philoxenia",
+    "one_liner": "Private P2P hospitality on Starknet — STRK20 Private Sprint",
+    "category": "Other",
+    "repo_url": "https://github.com/SergioSSantiago/philoxenia",
+    "demo_url": "https://philoxenia-iota.vercel.app",
+    "demo_video": "https://philoxenia-iota.vercel.app/demo/philoxenia-commercial.mp4",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": true,
+    "star_reason": "It applies privacy to a social trust network not typically associated with privacy.",
+    "contracts": [
+      {
+        "address": "0x056a817104ad7544a55873584f3d8fb41a780e5466d152b3e1f12d578e75defb",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x030533c6110ee5c414a5678bd71115be738852d709c74d8136fa965271c2e1f3",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x004c0322af24bb710f3aa0e48293517777188b42d9c4428b77304008ad0ea712",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x7ef1e214d5c5e99a4f8d27ba459326f4ec0bfaba8525824d1a36754608b60f9",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x6beeb2d0b1d78563182cc9859960ba325d44b71860b7c067479456e90e10634",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x5bac436e2a9775719de94e0ec1ea62f1cbc9737b23dd780230df66a53cc7813",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-08-17T18:26:50Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "SergioSSantiago",
+        "name": "Sergio Sapina Santiago",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44295455?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Cursor",
+        "name": "Cursor",
+        "avatar_url": "",
+        "commits": 100
+      }
+    ],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "0da62403e8b864375e082adb0c1a2e3800852d4c",
+    "readme_hash": "9302:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
+    "churn_pct": 6.8,
+    "summary": "Facilitate private peer-to-peer hospitality on Starknet.",
+    "description_long": "This project creates a trust-based network for private hospitality where listings are only visible to selected individuals, ensuring privacy. It uses Cairo for trustless escrow settlements and enables private payments via STRK20 while managing various roles like Hosts and Connectors within the application.",
+    "latest_push": "Displayed DAI shield beside STRK on Home balances and payment options.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 851,
+    "deletions": 151,
+    "assessment": null
+  },
+  {
+    "slug": "portage",
+    "name": "Portage.fun",
+    "one_liner": "Provably-fair idle creature-collecting on Starknet — hatch, evolve, and trade original creatures.",
+    "category": "Gaming",
+    "repo_url": "https://github.com/joaoolucas/portage-strk",
+    "demo_url": "https://portage-topaz.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T18:16:42Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "joaoolucas",
+        "name": "joaoolucas",
+        "avatar_url": "https://avatars.githubusercontent.com/u/83239762?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 1
+      }
+    ],
+    "active_days": [
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "54deaa557539627e7f3b22e8810e55536d20c730",
+    "readme_hash": "3958:# Portage.fun\n\n**Live demo:** https://portage-topaz.vercel.app\n\n![Portage kickoff](docs/screenshots/kickoff.png)\n\n![Portage game dashboard](docs/screenshots/dashboard.png)\n\n![Portage spatial auto-hunt",
+    "churn_pct": 0,
+    "summary": "Create and evolve creatures in a cozy idle RPG on Starknet.",
+    "description_long": "The project offers a playable top-down idle RPG with features like tile movement, NPCs, and spatial combat. It integrates local storage for progress and employs Cairo for creature mechanics and evolution, while preparing for future Starknet interactions and privacy features. The challenging aspect lies in securely managing offline progress and ensuring private transactions through STRK20 integration.",
+    "latest_push": "Shipped a playable local idle RPG loop with an explorable top-down world.",
+    "tooling": [
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 3,
+    "deletions": 0,
+    "assessment": null
+  },
+  {
     "slug": "stk402",
     "name": "stk402",
     "one_liner": "",
@@ -20,7 +180,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T17:54:22Z",
+    "pushed_at": "2026-08-17T18:15:18Z",
     "stars": 0,
     "builders": [
       {
@@ -34,7 +194,7 @@
         "family": "Cursor",
         "name": "Cursor",
         "avatar_url": "https://avatars.githubusercontent.com/u/199161495?v=4",
-        "commits": 10
+        "commits": 14
       }
     ],
     "active_days": [
@@ -42,9 +202,9 @@
       "2026-08-15",
       "2026-08-17"
     ],
-    "head_sha": "1befab7538f305632a0b7e0bd874519fca26add2",
+    "head_sha": "fae7de0f6812ffa5ed2eadfe32e46e8554b11a83",
     "readme_hash": "13778:# stk402\n\nAmount-confidential STRK20 payments for x402 agents on Starknet.\n\nSTK402 adds an encrypted x402 payment scheme for STRK20. The agent and server exchange encrypted payment terms and receipt m",
-    "churn_pct": 23.8,
+    "churn_pct": 74.3,
     "summary": "Enable encrypted STRK20 payments for x402 agents on Starknet.",
     "description_long": "This project implements a payment scheme that allows for encrypted transactions of STRK20 tokens between agents and a server using a secure protocol. It tackles the challenge of ensuring privacy for both payer and recipient by employing encryption methods like X25519 and AES-256-GCM to protect sensitive payment details from unauthorized access.",
     "latest_push": "Locked demo_url in docs and added content to /SKILL.md.",
@@ -66,8 +226,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 1586,
-    "deletions": 332,
+    "additions": 851,
+    "deletions": 5148,
     "assessment": null
   },
   {
@@ -119,7 +279,6 @@
     ],
     "head_sha": "31b9b71df54841d8cf88aba5925cfd886a033c39",
     "readme_hash": "8224:# zkPayslip\n\nPrivate payroll on Starknet: salaries move invisibly inside the STRK20 privacy pool while any employee can still prove their income to exactly one verifier, once.\n\n## Live deployment\n\n| C",
-    "churn_pct": 1.9,
     "summary": "Enable private payroll verification on Starknet through zk technology.",
     "description_long": "This project allows employees to receive their salaries from a privacy pool while still proving their income to a specific verifier. It achieves privacy for the salary transfers inside the pool, while the contract ensures necessary disclosures for verification without revealing sensitive data. The challenge lies in managing timing correlations and ensuring a larger anonymity set as more transactions occur, addressing these concerns with a structured layer of disclosure.",
     "latest_push": "Deployed the contract to Sepolia and updated related documentation.",
@@ -163,6 +322,7 @@
     "has_readme": true,
     "additions": 63,
     "deletions": 43,
+    "churn_pct": 1.9,
     "assessment": null
   },
   {
@@ -209,7 +369,6 @@
     ],
     "head_sha": "b56c229787fb3dd467082c44cb9ab3ff364ac9b6",
     "readme_hash": "6982:# Whisper Pay\n\nOne-link private payment requests on Starknet, powered by STRK20 shielded transfers.\n\n## What is this?\n\nWhisper Pay is a one-link private payment request tool built on STRK20. A user ge",
-    "churn_pct": 12.6,
     "summary": "Facilitate private payments using shareable links on Starknet.",
     "description_long": "Users can generate shareable payment links that route transactions through STRK20's shielded transfers, ensuring privacy. When a payer uses the link, their payment details remain hidden on-chain, while the recipient can still see their incoming payments. The system allows for creating and managing these links simply, making it useful for freelancers and small businesses.",
     "latest_push": "Fixed wallet references for user registration and shielding.",
@@ -243,6 +402,7 @@
     "has_readme": true,
     "additions": 507,
     "deletions": 17,
+    "churn_pct": 12.6,
     "assessment": null
   },
   {
@@ -289,7 +449,6 @@
     ],
     "head_sha": "01dc662b04e649eff55d53e6fac772b95da07ed2",
     "readme_hash": "9711:# Erebus\n\n**Negotiate in darkness, settle in silence.**\n\nErebus is experimental coordination and shielded-settlement infrastructure for AI agents.\n\n[Open the public demo](https://erebus-private-agents",
-    "churn_pct": 1.8,
     "summary": "Provide infrastructure for autonomous AI agent negotiations and settlements.",
     "description_long": "The project enables AI agents to negotiate and settle transactions securely through encrypted channels, ensuring that the negotiation process remains private. It aims to solve the issue of transparency in agent-to-agent commerce by providing atomic settlements and controlled disclosure of transaction details, preventing unauthorized observers from gleaning insights from metadata alone.",
     "latest_push": "Selected input and changed the payer in the client implementation.",
@@ -308,101 +467,7 @@
     "has_readme": true,
     "additions": 321,
     "deletions": 28,
-    "assessment": null
-  },
-  {
-    "slug": "philoxenia",
-    "name": "philoxenia",
-    "one_liner": "Private P2P hospitality on Starknet — STRK20 Private Sprint",
-    "category": "Other",
-    "repo_url": "https://github.com/SergioSSantiago/philoxenia",
-    "demo_url": "https://philoxenia-iota.vercel.app",
-    "demo_video": "https://philoxenia-iota.vercel.app/demo/philoxenia-commercial.mp4",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": true,
-    "star_reason": "It applies privacy to a social trust network not typically associated with privacy.",
-    "contracts": [
-      {
-        "address": "0x056a817104ad7544a55873584f3d8fb41a780e5466d152b3e1f12d578e75defb",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x030533c6110ee5c414a5678bd71115be738852d709c74d8136fa965271c2e1f3",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x004c0322af24bb710f3aa0e48293517777188b42d9c4428b77304008ad0ea712",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x7ef1e214d5c5e99a4f8d27ba459326f4ec0bfaba8525824d1a36754608b60f9",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x6beeb2d0b1d78563182cc9859960ba325d44b71860b7c067479456e90e10634",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0xd081e258a00fa10af08243e2ccf6d2e5cf28076002a499223a9e5258b0976d",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      }
-    ],
-    "verified_txs": 2,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T17:35:39Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "SergioSSantiago",
-        "name": "Sergio Sapina Santiago",
-        "avatar_url": "https://avatars.githubusercontent.com/u/44295455?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Cursor",
-        "name": "Cursor",
-        "avatar_url": "",
-        "commits": 100
-      }
-    ],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "356a34d1f7a2dd52034e9abf470027dc9d2beced",
-    "readme_hash": "9302:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
-    "churn_pct": 0.2,
-    "summary": "Facilitate private peer-to-peer hospitality on Starknet.",
-    "description_long": "This project creates a trust-based network for private hospitality where listings are only visible to selected individuals, ensuring privacy. It uses Cairo for trustless escrow settlements and enables private payments via STRK20 while managing various roles like Hosts and Connectors within the application.",
-    "latest_push": "Displayed DAI shield beside STRK on Home balances and payment options.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 13,
-    "deletions": 12,
+    "churn_pct": 1.8,
     "assessment": null
   },
   {
@@ -518,65 +583,6 @@
     "additions": 1,
     "deletions": 1,
     "churn_pct": 0.1,
-    "assessment": null
-  },
-  {
-    "slug": "portage",
-    "name": "Portage.fun",
-    "one_liner": "Provably-fair idle creature-collecting on Starknet — hatch, evolve, and trade original creatures.",
-    "category": "Gaming",
-    "repo_url": "https://github.com/joaoolucas/portage-strk",
-    "demo_url": "https://portage-topaz.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T17:10:33Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "joaoolucas",
-        "name": "joaoolucas",
-        "avatar_url": "https://avatars.githubusercontent.com/u/83239762?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "3f957db22cbbb1b09a41b5ac639556099dafd4c5",
-    "readme_hash": "3958:# Portage.fun\n\n**Live demo:** https://portage-topaz.vercel.app\n\n![Portage kickoff](docs/screenshots/kickoff.png)\n\n![Portage game dashboard](docs/screenshots/dashboard.png)\n\n![Portage spatial auto-hunt",
-    "summary": "Create and evolve creatures in a cozy idle RPG on Starknet.",
-    "description_long": "The project offers a playable top-down idle RPG with features like tile movement, NPCs, and spatial combat. It integrates local storage for progress and employs Cairo for creature mechanics and evolution, while preparing for future Starknet interactions and privacy features. The challenging aspect lies in securely managing offline progress and ensuring private transactions through STRK20 integration.",
-    "latest_push": "Shipped a playable local idle RPG loop with an explorable top-down world.",
-    "tooling": [
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 4766,
-    "deletions": 19,
-    "churn_pct": 52.1,
     "assessment": null
   },
   {
