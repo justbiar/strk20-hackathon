@@ -1,5 +1,69 @@
 [
   {
+    "slug": "sealed",
+    "name": "Sealed",
+    "one_liner": "Sealed-bid, second-price auctions on Starknet with unlinkable bidders and private settlement through STRK20.",
+    "category": "DeFi",
+    "repo_url": "https://github.com/tinoxbt/sealed",
+    "demo_url": "https://tinoxbt.github.io/sealed/",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "RFP-08",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x01a691c524299a7cdcde1e49680564fa35a8ac64fdf37c7e71f261e88eb03f62",
+        "network": "sepolia"
+      }
+    ],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T22:39:50Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "tinoxbt",
+        "name": "tinoxbt",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202869881?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "f99ebe48472d4f0e54e2b3921bd57e68345f9137",
+    "readme_hash": "8938:# Sealed\n\nA deployable Vickrey variant of RFP-08 on Starknet. Bidder identities stay unlinkable, bid values stay hidden until reveal, every bidder locks identical STRK20-funded collateral, and failing",
+    "churn_pct": 2.1,
+    "summary": "Enable private sealed-bid auctions on Starknet with unlinkable bidders.",
+    "description_long": "A sealed-bid auction protocol that keeps bidder identities and bid values hidden until a reveal, utilizing STRK20 as collateral. Each bidder makes a commitment to their bid using a Poseidon hash, with identical amounts escrowed to maintain privacy and prevent bid leaks. The system aims to ensure honest bidding under a second-price auction rule while addressing the complexities of anonymity and collateral management.",
+    "latest_push": "Published the app to GitHub Pages as a static export.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 41,
+    "deletions": 58,
+    "assessment": null
+  },
+  {
     "slug": "starkwhisper",
     "name": "StarkWhisper",
     "one_liner": "Metadata-resistant, end-to-end encrypted messaging & private payment memos on Starknet.",
@@ -25,7 +89,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T22:20:23Z",
+    "pushed_at": "2026-08-17T22:38:16Z",
     "stars": 0,
     "builders": [
       {
@@ -39,9 +103,9 @@
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "7d3cf6293052fbfa31fa38ec9df592315c84b023",
+    "head_sha": "1bdcc3b54ac5058b7b134d1ad14de191fd2b5a5b",
     "readme_hash": "6384:# StarkWhisper\n\n> **Metadata-Resistant, End-to-End Encrypted On-Chain Messaging & Private Payment Memos on Starknet**\n\n![Starknet](https://img.shields.io/badge/Starknet-Mainnet%20%2F%20Sepolia-c53400?",
-    "churn_pct": 1.2,
+    "churn_pct": 3.3,
     "summary": "Facilitate private messaging and payment memos on Starknet.",
     "description_long": "This project uses the STRK20 Privacy Pool for secure, metadata-resistant messaging and payments on Starknet. It combines encrypted messaging with private STRK transfers in a single zero-knowledge transaction, ensuring sender and recipient identities are protected. The infrastructure includes a client-side crypto engine and integration with Starknet wallets, providing a seamless experience for users.",
     "latest_push": "Enforced 100% pool routing for sender anonymity and fixed several bugs.",
@@ -78,72 +142,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 52,
-    "deletions": 6,
-    "assessment": null
-  },
-  {
-    "slug": "sealed",
-    "name": "Sealed",
-    "one_liner": "Sealed-bid, second-price auctions on Starknet with unlinkable bidders and private settlement through STRK20.",
-    "category": "DeFi",
-    "repo_url": "https://github.com/tinoxbt/sealed",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "RFP-08",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x00bb79c9cbc96a04ef1bac51805de8642dd20f98ecd980dd208b03c931e6be87",
-        "network": "sepolia"
-      }
-    ],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T22:19:12Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tinoxbt",
-        "name": "tinoxbt",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202869881?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "62bc4848930234a5aa69e1dd6deef7423cb6c736",
-    "readme_hash": "8957:# Sealed\n\nA deployable Vickrey variant of RFP-08 on Starknet. Bidder identities stay unlinkable, bid values stay hidden until reveal, every bidder locks identical STRK20-funded collateral, and failing",
-    "churn_pct": 4,
-    "summary": "Enable private sealed-bid auctions on Starknet with unlinkable bidders.",
-    "description_long": "A sealed-bid auction protocol that keeps bidder identities and bid values hidden until a reveal, utilizing STRK20 as collateral. Each bidder makes a commitment to their bid using a Poseidon hash, with identical amounts escrowed to maintain privacy and prevent bid leaks. The system aims to ensure honest bidding under a second-price auction rule while addressing the complexities of anonymity and collateral management.",
-    "latest_push": "Published the app to GitHub Pages as a static export.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 173,
-    "deletions": 17,
+    "additions": 157,
+    "deletions": 1,
     "assessment": null
   },
   {
@@ -199,7 +199,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-08-17T22:16:56Z",
+    "pushed_at": "2026-08-17T22:36:09Z",
     "stars": 0,
     "builders": [
       {
@@ -221,9 +221,9 @@
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "318a8241b07e8ecd68329ecc4076e1625e38f0ab",
+    "head_sha": "1efbf4f52ce9d4e7bf3fa891a7039273ddf461e5",
     "readme_hash": "9313:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
-    "churn_pct": 0.3,
+    "churn_pct": 0.2,
     "summary": "Facilitate private peer-to-peer hospitality on Starknet.",
     "description_long": "This project creates a trust-based network for private hospitality where listings are only visible to selected individuals, ensuring privacy. It uses Cairo for trustless escrow settlements and enables private payments via STRK20 while managing various roles like Hosts and Connectors within the application.",
     "latest_push": "Displayed DAI shield beside STRK on Home balances and payment options.",
@@ -235,8 +235,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 24,
-    "deletions": 24,
+    "additions": 17,
+    "deletions": 17,
     "assessment": null
   },
   {
@@ -260,7 +260,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T22:04:38Z",
+    "pushed_at": "2026-08-17T22:29:05Z",
     "stars": 0,
     "builders": [
       {
@@ -334,7 +334,6 @@
     ],
     "head_sha": "4b57d15012dafe95e29ca5bc16fd654eee1bc085",
     "readme_hash": "3652:<div align=\"center\">\n  <img src=\"./icon.svg\" width=\"88\" height=\"88\" alt=\"HIDDEN logo\" />\n\n  # HIDDEN\n\n  **Games where your opponent can't see your move.**\n\n  Built on Starknet mainnet with **STRK20** ",
-    "churn_pct": 0.1,
     "summary": "Enable private play in wagered games using STRK20 on Starknet.",
     "description_long": "This project implements a suite of 1v1 wagered games where players' moves are hidden until revealed, utilizing STRK20 for privacy. The challenge is creating commitment hashes to ensure moves stay sealed, while also managing shielded transactions through the STRK20 privacy pool, allowing for unlinkable stakes and payouts.",
     "latest_push": "Added Vite setup with configuration files for the project.",
@@ -348,6 +347,7 @@
     "has_readme": true,
     "additions": 1,
     "deletions": 1,
+    "churn_pct": 0.1,
     "assessment": null
   },
   {
