@@ -1,58 +1,5 @@
 [
   {
-    "slug": "chaoskeyplus-appbuild",
-    "name": "ChaosKey+",
-    "one_liner": "Physical-chaos entropy device with a Ready Wallet API tab for STRK20 shield, private transfer, and unshield.",
-    "category": "Tooling",
-    "repo_url": "https://github.com/doodabug/Chaoskeyplus-appbuild",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T20:18:46Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "emergent-agent-e1",
-        "name": "emergent-agent-e1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/222461215?v=4"
-      },
-      {
-        "login": "doodabug",
-        "name": "doodabug",
-        "avatar_url": "https://avatars.githubusercontent.com/u/272664821?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "ae0369711dc33677ac8bcd0254641306e043a45d",
-    "readme_hash": "10303:# ChaosKey+ M3\n\n**A camera-entropy cryptographic device with STRK20 privacy on Starknet.**\n\nChaosKey+ turns your phone into a physical randomness generator. Every second, it hashes visual noise from y",
-    "churn_pct": 0.7,
-    "summary": "Create a physical-chaos entropy device with Ready Wallet API integration.",
-    "description_long": "This project implements a physical-chaos entropy device that interacts with the Starknet STRK20 privacy pool via the user's Ready wallet. The challenge lies in ensuring that the dapp maintains privacy while facilitating actions like shielding and private transfers without holding a viewing key or dealing with ERC-20 tokens directly.",
-    "latest_push": "Fixed Ready discovery and improved rescan functionality on Pool.",
-    "tooling": [],
-    "has_readme": true,
-    "additions": 31,
-    "deletions": 0,
-    "assessment": null
-  },
-  {
     "slug": "sealed",
     "name": "Sealed",
     "one_liner": "Sealed-bid, second-price auctions on Starknet with unlinkable bidders and private settlement through STRK20.",
@@ -64,7 +11,12 @@
     "inspired_by": "RFP-08",
     "starred": false,
     "star_reason": "",
-    "contracts": [],
+    "contracts": [
+      {
+        "address": "0x00bb79c9cbc96a04ef1bac51805de8642dd20f98ecd980dd208b03c931e6be87",
+        "network": "sepolia"
+      }
+    ],
     "transactions": [],
     "verified_txs": 0,
     "requirements": {
@@ -73,7 +25,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T20:18:01Z",
+    "pushed_at": "2026-08-17T20:51:53Z",
     "stars": 0,
     "builders": [
       {
@@ -88,9 +40,9 @@
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "55a2b319e803b881bba64353e8d0cccaa5091c22",
+    "head_sha": "3d34ef4dbcf67746428f1080d63c40eee846d002",
     "readme_hash": "6683:# Sealed\n\nA deployable Vickrey variant of RFP-08 on Starknet. Bidder identities stay unlinkable, bid values stay hidden until reveal, every bidder locks identical STRK20-funded collateral, and failing",
-    "churn_pct": 13.2,
+    "churn_pct": 5.2,
     "summary": "Enable private sealed-bid auctions on Starknet with unlinkable bidders.",
     "description_long": "A sealed-bid auction protocol that keeps bidder identities and bid values hidden until a reveal, utilizing STRK20 as collateral. Each bidder makes a commitment to their bid using a Poseidon hash, with identical amounts escrowed to maintain privacy and prevent bid leaks. The system aims to ensure honest bidding under a second-price auction rule while addressing the complexities of anonymity and collateral management.",
     "latest_push": "Published the app to GitHub Pages as a static export.",
@@ -107,8 +59,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 402,
-    "deletions": 113,
+    "additions": 202,
+    "deletions": 11,
     "assessment": null
   },
   {
@@ -164,7 +116,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-08-17T20:16:21Z",
+    "pushed_at": "2026-08-17T20:36:44Z",
     "stars": 0,
     "builders": [
       {
@@ -186,9 +138,9 @@
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "32f2e1fcca1dc08b04772354f5a8e32bea63c5a6",
+    "head_sha": "4c4d142a89124b2254cc066ef7de2672e7794117",
     "readme_hash": "9302:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
-    "churn_pct": 0.4,
+    "churn_pct": 0.2,
     "summary": "Facilitate private peer-to-peer hospitality on Starknet.",
     "description_long": "This project creates a trust-based network for private hospitality where listings are only visible to selected individuals, ensuring privacy. It uses Cairo for trustless escrow settlements and enables private payments via STRK20 while managing various roles like Hosts and Connectors within the application.",
     "latest_push": "Displayed DAI shield beside STRK on Home balances and payment options.",
@@ -200,8 +152,61 @@
       }
     ],
     "has_readme": true,
-    "additions": 33,
-    "deletions": 27,
+    "additions": 12,
+    "deletions": 12,
+    "assessment": null
+  },
+  {
+    "slug": "chaoskeyplus-appbuild",
+    "name": "ChaosKey+",
+    "one_liner": "Physical-chaos entropy device with a Ready Wallet API tab for STRK20 shield, private transfer, and unshield.",
+    "category": "Tooling",
+    "repo_url": "https://github.com/doodabug/Chaoskeyplus-appbuild",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T20:18:46Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "emergent-agent-e1",
+        "name": "emergent-agent-e1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/222461215?v=4"
+      },
+      {
+        "login": "doodabug",
+        "name": "doodabug",
+        "avatar_url": "https://avatars.githubusercontent.com/u/272664821?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "ae0369711dc33677ac8bcd0254641306e043a45d",
+    "readme_hash": "10303:# ChaosKey+ M3\n\n**A camera-entropy cryptographic device with STRK20 privacy on Starknet.**\n\nChaosKey+ turns your phone into a physical randomness generator. Every second, it hashes visual noise from y",
+    "summary": "Create a physical-chaos entropy device with Ready Wallet API integration.",
+    "description_long": "This project implements a physical-chaos entropy device that interacts with the Starknet STRK20 privacy pool via the user's Ready wallet. The challenge lies in ensuring that the dapp maintains privacy while facilitating actions like shielding and private transfers without holding a viewing key or dealing with ERC-20 tokens directly.",
+    "latest_push": "Fixed Ready discovery and improved rescan functionality on Pool.",
+    "tooling": [],
+    "has_readme": true,
+    "additions": 31,
+    "deletions": 0,
+    "churn_pct": 0.7,
     "assessment": null
   },
   {
@@ -247,7 +252,6 @@
     ],
     "head_sha": "192663cacd80ab5ad6dda267735eff467c78c1a2",
     "readme_hash": "2265:# Ownerz — Sell Files. Post-Quantum Delivery.\n\n## Core Value\nA marketplace where anyone can monetize private data on blockchain with anonymous transactions, no intermediaries, no hidden costs.\n\n## How",
-    "churn_pct": 97.9,
     "summary": "Facilitates anonymous data transactions using Starknet and post-quantum encryption.",
     "description_long": "Users upload encrypted files to Filecoin, connect their Starknet wallet, and only share a CID and price on the smart contract. Purchases are made anonymously using ZK-proofs, with buyers receiving decryption keys securely after payment. The system ensures that data remains encrypted on IPFS and is only accessible to verified buyers.",
     "latest_push": "Deployed Cloudflare Pages with critical bug fixes and a hackathon popup.",
@@ -286,6 +290,7 @@
     "has_readme": true,
     "additions": 1773,
     "deletions": 1981,
+    "churn_pct": 97.9,
     "assessment": null
   },
   {
