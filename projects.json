@@ -20,7 +20,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T13:39:46Z",
+    "pushed_at": "2026-08-17T14:20:14Z",
     "stars": 0,
     "builders": [
       {
@@ -34,16 +34,16 @@
         "family": "Claude",
         "name": "Claude Opus 5",
         "avatar_url": "",
-        "commits": 34
+        "commits": 39
       }
     ],
     "active_days": [
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "ede12b4ed1427f84f84aeee99cb9fa4e7900d535",
+    "head_sha": "3f1288fa788afa4aa479e02ee5b9a22746669b60",
     "readme_hash": "4928:# STRKWORLD\n\n**A 2D top-down city where the buildings are Starknet privacy protocols.**\n\nWalk around a shared pseudonymous world, step into a building, and use a real\nprivacy-preserving protocol with ",
-    "churn_pct": 0.6,
+    "churn_pct": 3.4,
     "summary": "Create a 2D city that simulates Starknet privacy protocols.",
     "description_long": "This project involves building a 2D top-down city where each building represents a privacy protocol on Starknet. The challenge lies in implementing a system where financial buildings can only operate if they have an approved privacy execution path, ensuring that no sensitive data is exposed within the application. The architecture separates concerns among various packages, maintaining a clear boundary between the game mechanics and financial operations.",
     "latest_push": "Deployed scaffolding with header gate, backend container, and ops runbook.",
@@ -60,8 +60,67 @@
       }
     ],
     "has_readme": true,
-    "additions": 82,
-    "deletions": 1,
+    "additions": 527,
+    "deletions": 10,
+    "assessment": null
+  },
+  {
+    "slug": "portage",
+    "name": "Portage.fun",
+    "one_liner": "Provably-fair idle creature-collecting on Starknet — hatch, evolve, and trade original creatures.",
+    "category": "Gaming",
+    "repo_url": "https://github.com/joaoolucas/portage-strk",
+    "demo_url": "https://portage-topaz.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T14:19:11Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "joaoolucas",
+        "name": "joaoolucas",
+        "avatar_url": "https://avatars.githubusercontent.com/u/83239762?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "9fba2302dd1f81ff28a326b99db116b08a4f012c",
+    "readme_hash": "3958:# Portage.fun\n\n**Live demo:** https://portage-topaz.vercel.app\n\n![Portage kickoff](docs/screenshots/kickoff.png)\n\n![Portage game dashboard](docs/screenshots/dashboard.png)\n\n![Portage spatial auto-hunt",
+    "churn_pct": 22.8,
+    "summary": "Create and evolve creatures in a cozy idle RPG on Starknet.",
+    "description_long": "The project offers a playable top-down idle RPG with features like tile movement, NPCs, and spatial combat. It integrates local storage for progress and employs Cairo for creature mechanics and evolution, while preparing for future Starknet interactions and privacy features. The challenging aspect lies in securely managing offline progress and ensuring private transactions through STRK20 integration.",
+    "latest_push": "Shipped a playable local idle RPG loop with an explorable top-down world.",
+    "tooling": [
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 2055,
+    "deletions": 9,
     "assessment": null
   },
   {
@@ -118,7 +177,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T13:30:09Z",
+    "pushed_at": "2026-08-17T14:17:13Z",
     "stars": 0,
     "builders": [
       {
@@ -132,7 +191,7 @@
         "family": "Cursor",
         "name": "Cursor",
         "avatar_url": "",
-        "commits": 92
+        "commits": 95
       }
     ],
     "active_days": [
@@ -141,9 +200,9 @@
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "66703a58555bfc700f9afd2d3e92c876c30b658d",
+    "head_sha": "184291228c0c32e89d551f0bb5279b41ccf4477b",
     "readme_hash": "9258:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
-    "churn_pct": 0,
+    "churn_pct": 0.1,
     "summary": "Facilitate private peer-to-peer hospitality on Starknet.",
     "description_long": "This project creates a trust-based network for private hospitality where listings are only visible to selected individuals, ensuring privacy. It uses Cairo for trustless escrow settlements and enables private payments via STRK20 while managing various roles like Hosts and Connectors within the application.",
     "latest_push": "Displayed DAI shield beside STRK on Home balances and payment options.",
@@ -155,61 +214,79 @@
       }
     ],
     "has_readme": true,
-    "additions": 1,
-    "deletions": 1,
+    "additions": 7,
+    "deletions": 7,
     "assessment": null
   },
   {
-    "slug": "chaoskeyplus-appbuild",
-    "name": "ChaosKey+",
-    "one_liner": "Physical-chaos entropy device with a Ready Wallet API tab for STRK20 shield, private transfer, and unshield.",
-    "category": "Tooling",
-    "repo_url": "https://github.com/doodabug/Chaoskeyplus-appbuild",
+    "slug": "airlock",
+    "name": "Airlock",
+    "one_liner": "One-click privacy from any chain: bridge in, hold private, withdraw to a different chain with no on-chain link.",
+    "category": "Infra",
+    "repo_url": "https://github.com/kenkomu/airlock",
     "demo_url": "",
     "demo_video": "",
     "x_handle": "",
-    "inspired_by": "",
+    "inspired_by": "RFP-09",
     "starred": false,
     "star_reason": "",
     "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
+    "transactions": [
+      {
+        "hash": "0x78d391e720a1c34540be9416496834b830d3f2105b7cf798ab4ab1cd6169cca",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x6c6b6a15f7e3065b0db3e7e49ec17871dbf90c2576e46c8bd045b6d4009ff82",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x6beb4415dc14438f5870e1b37cabaf53e361cf09c8bc2e7a12fc83b2ce2887",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      }
+    ],
+    "verified_txs": 3,
     "requirements": {
       "demo": false,
       "video": false,
-      "mainnet": false
+      "mainnet": true
     },
     "status": "building",
-    "pushed_at": "2026-08-17T13:20:18Z",
+    "pushed_at": "2026-08-17T14:14:12Z",
     "stars": 0,
     "builders": [
       {
-        "login": "emergent-agent-e1",
-        "name": "emergent-agent-e1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/222461215?v=4"
+        "login": "renoschubert",
+        "name": "Kenneth Komu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4"
       },
       {
-        "login": "doodabug",
-        "name": "doodabug",
-        "avatar_url": "https://avatars.githubusercontent.com/u/272664821?v=4"
+        "login": "kenkomu",
+        "name": "Kenneth Njoroge",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95502725?v=4"
       }
     ],
     "agents": [],
     "active_days": [
-      "2026-08-14",
-      "2026-08-16",
+      "2026-08-15",
       "2026-08-17"
     ],
-    "head_sha": "7694044dc0488d790217c9dbd1dcef52afb42fd8",
-    "readme_hash": "9800:# ChaosKey+ M3\n\n**A camera-entropy cryptographic device with STRK20 privacy on Starknet.**\n\nChaosKey+ turns your phone into a physical randomness generator. Every second, it hashes visual noise from y",
-    "churn_pct": 0,
-    "summary": "Create a physical-chaos entropy device with Ready Wallet API integration.",
-    "description_long": "This project implements a physical-chaos entropy device that interacts with the Starknet STRK20 privacy pool via the user's Ready wallet. The challenge lies in ensuring that the dapp maintains privacy while facilitating actions like shielding and private transfers without holding a viewing key or dealing with ERC-20 tokens directly.",
-    "latest_push": "Fixed Ready discovery and improved rescan functionality on Pool.",
+    "head_sha": "b0a0b3d891ab86898f33e4e3fca1f2307b4328f7",
+    "readme_hash": "6606:# Airlock\n\n**One-click privacy from any chain.** Step in on one chain, the door seals behind you, step out on another. No on-chain link between the two sides.\n\nBuilt on the [STRK20](https://strk20-by-",
+    "churn_pct": 29,
+    "summary": "Enable cross-chain privacy without on-chain links.",
+    "description_long": "This project allows users to bridge assets from one chain to another while ensuring privacy by severing links between deposit and withdrawal addresses. It uses a privacy pool that enables users to engage without ever having to interact directly with the underlying privacy technology. The main challenge tackled here is maintaining anonymity during the deposit and withdrawal processes, especially considering the timing and amount of transactions that could potentially link user activity.",
+    "latest_push": "Banked the second verified mainnet transaction in strk20.json.",
     "tooling": [],
     "has_readme": true,
-    "additions": 1,
-    "deletions": 1,
+    "additions": 388,
+    "deletions": 182,
     "assessment": null
   },
   {
@@ -233,7 +310,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T13:07:21Z",
+    "pushed_at": "2026-08-17T14:03:26Z",
     "stars": 0,
     "builders": [
       {
@@ -249,9 +326,9 @@
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "6c73d2a2b826b0c7e32a81128d52af57e79e2b29",
+    "head_sha": "73d809d4f6f8e4acbb5ba8fee60af2346c6c2536",
     "readme_hash": "5690:<div align=\"center\">\n\n# Veyl\n\n**A private launch & trading terminal on Starknet.**\n\nTrade and launch tokens without your wallet becoming a target — funded through the [STRK20](https://strk20-by-exampl",
-    "churn_pct": 2,
+    "churn_pct": 20.7,
     "summary": "Trade and launch tokens privately on Starknet with unlinkable identities.",
     "description_long": "This project creates a trading and launch terminal that allows users to execute trades without linking to their funding wallets. It utilizes shielded funding from the STRK20 privacy pool, enabling sealed-bid launches and private transfers, which ensure that users' trading strategies remain confidential and secure.",
     "latest_push": "Added private swap feature in the Trade tab using AVNU SDK.",
@@ -293,8 +370,61 @@
       }
     ],
     "has_readme": true,
-    "additions": 39,
-    "deletions": 19,
+    "additions": 674,
+    "deletions": 49,
+    "assessment": null
+  },
+  {
+    "slug": "chaoskeyplus-appbuild",
+    "name": "ChaosKey+",
+    "one_liner": "Physical-chaos entropy device with a Ready Wallet API tab for STRK20 shield, private transfer, and unshield.",
+    "category": "Tooling",
+    "repo_url": "https://github.com/doodabug/Chaoskeyplus-appbuild",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T13:47:57Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "emergent-agent-e1",
+        "name": "emergent-agent-e1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/222461215?v=4"
+      },
+      {
+        "login": "doodabug",
+        "name": "doodabug",
+        "avatar_url": "https://avatars.githubusercontent.com/u/272664821?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "a0bf16a6efbb730cb4b3796ef79d37a33aba87fe",
+    "readme_hash": "10303:# ChaosKey+ M3\n\n**A camera-entropy cryptographic device with STRK20 privacy on Starknet.**\n\nChaosKey+ turns your phone into a physical randomness generator. Every second, it hashes visual noise from y",
+    "churn_pct": 0.2,
+    "summary": "Create a physical-chaos entropy device with Ready Wallet API integration.",
+    "description_long": "This project implements a physical-chaos entropy device that interacts with the Starknet STRK20 privacy pool via the user's Ready wallet. The challenge lies in ensuring that the dapp maintains privacy while facilitating actions like shielding and private transfers without holding a viewing key or dealing with ERC-20 tokens directly.",
+    "latest_push": "Fixed Ready discovery and improved rescan functionality on Pool.",
+    "tooling": [],
+    "has_readme": true,
+    "additions": 10,
+    "deletions": 1,
     "assessment": null
   },
   {
@@ -333,7 +463,6 @@
     ],
     "head_sha": "0c3821fa3a6d81cd53ff37f75e32970b6c186378",
     "readme_hash": "29486:# Sotto\n\nSotto is a privacy-focused yield account for Starknet. It gives users a single interface for shielding assets, viewing wallet-discovered private balances, moving funds into supported DeFi pos",
-    "churn_pct": 99.4,
     "summary": "Manage private yield accounts for Starknet DeFi users.",
     "description_long": "This project creates a responsive dashboard that enables users to manage shielded yield accounts without exposing their wallet information. It leverages Starknet's privacy pool to keep transaction details hidden while allowing users to interact with multiple DeFi protocols through secure, audited anonymizers and dynamically generated proofs.",
     "latest_push": "Initialized the project with the first commit.",
@@ -372,6 +501,7 @@
     "has_readme": true,
     "additions": 1505,
     "deletions": 294,
+    "churn_pct": 99.4,
     "assessment": null
   },
   {
@@ -416,7 +546,6 @@
     ],
     "head_sha": "93f94a3ed347fe298d01d58a8e88f3634a12fb73",
     "readme_hash": "3652:<div align=\"center\">\n  <img src=\"./icon.svg\" width=\"88\" height=\"88\" alt=\"HIDDEN logo\" />\n\n  # HIDDEN\n\n  **Games where your opponent can't see your move.**\n\n  Built on Starknet mainnet with **STRK20** ",
-    "churn_pct": 13.6,
     "summary": "Enable private play in wagered games using STRK20 on Starknet.",
     "description_long": "This project implements a suite of 1v1 wagered games where players' moves are hidden until revealed, utilizing STRK20 for privacy. The challenge is creating commitment hashes to ensure moves stay sealed, while also managing shielded transactions through the STRK20 privacy pool, allowing for unlinkable stakes and payouts.",
     "latest_push": "Added Vite setup with configuration files for the project.",
@@ -430,6 +559,7 @@
     "has_readme": true,
     "additions": 199,
     "deletions": 56,
+    "churn_pct": 13.6,
     "assessment": null
   },
   {
@@ -777,77 +907,6 @@
     "additions": 417,
     "deletions": 530,
     "churn_pct": 13.3,
-    "assessment": null
-  },
-  {
-    "slug": "airlock",
-    "name": "Airlock",
-    "one_liner": "One-click privacy from any chain: bridge in, hold private, withdraw to a different chain with no on-chain link.",
-    "category": "Infra",
-    "repo_url": "https://github.com/kenkomu/airlock",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "RFP-09",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [
-      {
-        "hash": "0x78d391e720a1c34540be9416496834b830d3f2105b7cf798ab4ab1cd6169cca",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x6c6b6a15f7e3065b0db3e7e49ec17871dbf90c2576e46c8bd045b6d4009ff82",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x6beb4415dc14438f5870e1b37cabaf53e361cf09c8bc2e7a12fc83b2ce2887",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": true
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T09:22:52Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "renoschubert",
-        "name": "Kenneth Komu",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4"
-      },
-      {
-        "login": "kenkomu",
-        "name": "Kenneth Njoroge",
-        "avatar_url": "https://avatars.githubusercontent.com/u/95502725?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-15",
-      "2026-08-17"
-    ],
-    "head_sha": "7366962a2100329b541f1341096d80414aa7a651",
-    "readme_hash": "6606:# Airlock\n\n**One-click privacy from any chain.** Step in on one chain, the door seals behind you, step out on another. No on-chain link between the two sides.\n\nBuilt on the [STRK20](https://strk20-by-",
-    "summary": "Enable cross-chain privacy without on-chain links.",
-    "description_long": "This project allows users to bridge assets from one chain to another while ensuring privacy by severing links between deposit and withdrawal addresses. It uses a privacy pool that enables users to engage without ever having to interact directly with the underlying privacy technology. The main challenge tackled here is maintaining anonymity during the deposit and withdrawal processes, especially considering the timing and amount of transactions that could potentially link user activity.",
-    "latest_push": "Banked the second verified mainnet transaction in strk20.json.",
-    "tooling": [],
-    "has_readme": true,
-    "additions": 2,
-    "deletions": 1,
-    "churn_pct": 1.6,
     "assessment": null
   },
   {
@@ -1621,65 +1680,6 @@
     "assessment": null
   },
   {
-    "slug": "portage",
-    "name": "Portage.fun",
-    "one_liner": "Provably-fair idle creature-collecting on Starknet — hatch, evolve, and trade original creatures.",
-    "category": "Gaming",
-    "repo_url": "https://github.com/joaoolucas/portage-strk",
-    "demo_url": "https://portage-topaz.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T00:56:21Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "joaoolucas",
-        "name": "joaoolucas",
-        "avatar_url": "https://avatars.githubusercontent.com/u/83239762?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "65f5bb90d435fee71383d1f2294427549cda7d71",
-    "readme_hash": "3958:# Portage.fun\n\n**Live demo:** https://portage-topaz.vercel.app\n\n![Portage kickoff](docs/screenshots/kickoff.png)\n\n![Portage game dashboard](docs/screenshots/dashboard.png)\n\n![Portage spatial auto-hunt",
-    "summary": "Create and evolve creatures in a cozy idle RPG on Starknet.",
-    "description_long": "The project offers a playable top-down idle RPG with features like tile movement, NPCs, and spatial combat. It integrates local storage for progress and employs Cairo for creature mechanics and evolution, while preparing for future Starknet interactions and privacy features. The challenging aspect lies in securely managing offline progress and ensuring private transactions through STRK20 integration.",
-    "latest_push": "Shipped a playable local idle RPG loop with an explorable top-down world.",
-    "tooling": [
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 2744,
-    "deletions": 101,
-    "churn_pct": 34.1,
-    "assessment": null
-  },
-  {
     "slug": "stake-wars",
     "name": "stake-wars",
     "one_liner": "",
@@ -1869,9 +1869,9 @@
       "2026-08-15",
       "2026-08-16"
     ],
-    "head_sha": null,
+    "head_sha": "6fd902903312ee884fe38dbd5a4f969731e9c201",
     "readme_hash": "4454:# Nexora Protocol\n\n**Starknet as the privacy layer for the multichain economy.**\n\nNexora Protocol is a cross-chain privacy protocol that lets users deposit assets on any supported chain (Arbitrum, Bas",
-    "churn_pct": 0,
+    "churn_pct": 6.8,
     "summary": "Enable cross-chain privacy for asset transfers using STRK20 notes.",
     "description_long": "The project focuses on creating a cross-chain privacy protocol that utilizes Starknet as the underlying privacy engine. The challenge involves abstracting the technical complexities of privacy management, allowing users to utilize their existing wallets and assets without extensive setup. Key components include handling user transactions across multiple chains while maintaining privacy and minimizing linkability.",
     "latest_push": "Hardened the project with extensive documentation and contract updates.",
@@ -1888,8 +1888,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 0,
-    "deletions": 0,
+    "additions": 999,
+    "deletions": 47,
     "assessment": null
   },
   {
