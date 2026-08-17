@@ -20,7 +20,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-17T10:53:15Z",
+    "pushed_at": "2026-08-17T11:16:58Z",
     "stars": 2,
     "builders": [
       {
@@ -41,9 +41,9 @@
       "2026-08-16",
       "2026-08-17"
     ],
-    "head_sha": "d1731f4cbd01908b832998975fea5a428d4fb85f",
+    "head_sha": "c3960deade3223c639a41300ea7765e9f9410441",
     "readme_hash": "9436:# Erebus\n\n**Negotiate in darkness, settle in silence.**\n\nErebus is experimental coordination and shielded-settlement infrastructure for AI agents.\n\n[Open the public demo](https://erebus-private-agents",
-    "churn_pct": 2.8,
+    "churn_pct": 1.3,
     "summary": "Provide infrastructure for autonomous AI agent negotiations and settlements.",
     "description_long": "The project enables AI agents to negotiate and settle transactions securely through encrypted channels, ensuring that the negotiation process remains private. It aims to solve the issue of transparency in agent-to-agent commerce by providing atomic settlements and controlled disclosure of transaction details, preventing unauthorized observers from gleaning insights from metadata alone.",
     "latest_push": "Selected input and changed the payer in the client implementation.",
@@ -60,8 +60,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 434,
-    "deletions": 66,
+    "additions": 205,
+    "deletions": 27,
     "assessment": null
   },
   {
@@ -108,7 +108,6 @@
     ],
     "head_sha": "39112b55e7fb4dda6eee80090c7e59646d946e6a",
     "readme_hash": "4928:# STRKWORLD\n\n**A 2D top-down city where the buildings are Starknet privacy protocols.**\n\nWalk around a shared pseudonymous world, step into a building, and use a real\nprivacy-preserving protocol with ",
-    "churn_pct": 30.7,
     "summary": "Create a 2D city that simulates Starknet privacy protocols.",
     "description_long": "This project involves building a 2D top-down city where each building represents a privacy protocol on Starknet. The challenge lies in implementing a system where financial buildings can only operate if they have an approved privacy execution path, ensuring that no sensitive data is exposed within the application. The architecture separates concerns among various packages, maintaining a clear boundary between the game mechanics and financial operations.",
     "latest_push": "Deployed scaffolding with header gate, backend container, and ops runbook.",
@@ -127,6 +126,7 @@
     "has_readme": true,
     "additions": 4415,
     "deletions": 5,
+    "churn_pct": 30.7,
     "assessment": null
   },
   {
@@ -205,7 +205,6 @@
     ],
     "head_sha": "48e5d63a15371f6c2abca4fde95a7499c1f9fa45",
     "readme_hash": "3815:# Aperture\n\n**Sealed-ballot governance and a shielded treasury for DAOs, native to STRK20.**\n\nBuilt for the STRK20 Private Sprint, August 2026. Day 1 — this repository is\nunder active construction and",
-    "churn_pct": 8.4,
     "summary": "Enable private voting and treasury payouts for DAOs using STRK20's shielded pool.",
     "description_long": "This project implements a private voting system where votes are represented as private transfers, ensuring that choices and weights remain hidden until the tally is published. It also integrates a treasury payout mechanism that anonymizes grant recipients while still revealing payout amounts, addressing the problems of transparency and front-running in traditional on-chain governance.",
     "latest_push": "Deployed both contracts to mainnet and shipped the public demo.",
@@ -229,6 +228,7 @@
     "has_readme": true,
     "additions": 241,
     "deletions": 38,
+    "churn_pct": 8.4,
     "assessment": null
   },
   {
@@ -269,7 +269,6 @@
     ],
     "head_sha": "2002a2ad0e767fc9b6848f396059ed802b2c17a9",
     "readme_hash": "8995:# Booty Bank\n\n> BORROW AGAINST YOUR BBL.\n\nBooty Bank is the primary money account built for OnlyFans creators. The product combines daily banking, creator income, private credit, fan perks, and a post",
-    "churn_pct": 13.3,
     "summary": "Facilitate income credentialing and credit eligibility for creators.",
     "description_long": "This project enables OnlyFans creators to manage their income and credit profile using a single account on Starknet. It leverages custom Cairo contracts for secure income credentialing and implements various banking features, which include payments, budgeting, and privacy controls. The challenge lies in ensuring secure and private data validation while complying with the needs of creators beyond traditional banking platforms.",
     "latest_push": "Named the two onchain legs of a shield and marked live wallet routes.",
@@ -288,6 +287,7 @@
     "has_readme": true,
     "additions": 417,
     "deletions": 530,
+    "churn_pct": 13.3,
     "assessment": null
   },
   {
