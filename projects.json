@@ -1,5 +1,411 @@
 [
   {
+    "slug": "stk402",
+    "name": "stk402",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/Sarthib7/stk402",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T17:54:22Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Sarthib7",
+        "name": "sarthib7",
+        "avatar_url": "https://avatars.githubusercontent.com/u/112841873?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Cursor",
+        "name": "Cursor",
+        "avatar_url": "https://avatars.githubusercontent.com/u/199161495?v=4",
+        "commits": 10
+      }
+    ],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-17"
+    ],
+    "head_sha": "1befab7538f305632a0b7e0bd874519fca26add2",
+    "readme_hash": "13778:# stk402\n\nAmount-confidential STRK20 payments for x402 agents on Starknet.\n\nSTK402 adds an encrypted x402 payment scheme for STRK20. The agent and server exchange encrypted payment terms and receipt m",
+    "churn_pct": 23.8,
+    "summary": "Enable encrypted STRK20 payments for x402 agents on Starknet.",
+    "description_long": "This project implements a payment scheme that allows for encrypted transactions of STRK20 tokens between agents and a server using a secure protocol. It tackles the challenge of ensuring privacy for both payer and recipient by employing encryption methods like X25519 and AES-256-GCM to protect sensitive payment details from unauthorized access.",
+    "latest_push": "Locked demo_url in docs and added content to /SKILL.md.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1586,
+    "deletions": 332,
+    "assessment": null
+  },
+  {
+    "slug": "zkpayslip",
+    "name": "zkpayslip",
+    "one_liner": "Private payroll on Starknet — shielded salary disbursements and one-time, verifier-bound income proofs on the STRK20 privacy pool.",
+    "category": "Payments",
+    "repo_url": "https://github.com/EndPx/zkpayslip",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "RFP-11",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x051c29216ddd5e9016fad4380db34e895dc8176f58ec4754cb3b4c4f14bda8b3",
+        "network": "sepolia"
+      }
+    ],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T17:53:55Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "EndPx",
+        "name": "EndPx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/127120051?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 14
+      }
+    ],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "31b9b71df54841d8cf88aba5925cfd886a033c39",
+    "readme_hash": "8224:# zkPayslip\n\nPrivate payroll on Starknet: salaries move invisibly inside the STRK20 privacy pool while any employee can still prove their income to exactly one verifier, once.\n\n## Live deployment\n\n| C",
+    "churn_pct": 1.9,
+    "summary": "Enable private payroll verification on Starknet through zk technology.",
+    "description_long": "This project allows employees to receive their salaries from a privacy pool while still proving their income to a specific verifier. It achieves privacy for the salary transfers inside the pool, while the contract ensures necessary disclosures for verification without revealing sensitive data. The challenge lies in managing timing correlations and ensuring a larger anonymity set as more transactions occur, addressing these concerns with a structured layer of disclosure.",
+    "latest_push": "Deployed the contract to Sepolia and updated related documentation.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 63,
+    "deletions": 43,
+    "assessment": null
+  },
+  {
+    "slug": "whisperpay",
+    "name": "whisperpay",
+    "one_liner": "",
+    "category": "Payments",
+    "repo_url": "https://github.com/bugsm/whisperpay",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "zanexyzx",
+    "inspired_by": "IDEA-11",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T17:53:04Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "bugsm",
+        "name": "bugsm",
+        "avatar_url": "https://avatars.githubusercontent.com/u/121507446?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 8
+      }
+    ],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "b56c229787fb3dd467082c44cb9ab3ff364ac9b6",
+    "readme_hash": "6982:# Whisper Pay\n\nOne-link private payment requests on Starknet, powered by STRK20 shielded transfers.\n\n## What is this?\n\nWhisper Pay is a one-link private payment request tool built on STRK20. A user ge",
+    "churn_pct": 12.6,
+    "summary": "Facilitate private payments using shareable links on Starknet.",
+    "description_long": "Users can generate shareable payment links that route transactions through STRK20's shielded transfers, ensuring privacy. When a payer uses the link, their payment details remain hidden on-chain, while the recipient can still see their incoming payments. The system allows for creating and managing these links simply, making it useful for freelancers and small businesses.",
+    "latest_push": "Fixed wallet references for user registration and shielding.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 507,
+    "deletions": 17,
+    "assessment": null
+  },
+  {
+    "slug": "erebus",
+    "name": "Erebus",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/PoulavBhowmick03/Erebus",
+    "demo_url": "https://erebus-private-agents.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T17:43:32Z",
+    "stars": 2,
+    "builders": [
+      {
+        "login": "PoulavBhowmick03",
+        "name": "PoulavBhowmick03",
+        "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
+      },
+      {
+        "login": "ishitab02",
+        "name": "ishitab02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/139248026?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "01dc662b04e649eff55d53e6fac772b95da07ed2",
+    "readme_hash": "9711:# Erebus\n\n**Negotiate in darkness, settle in silence.**\n\nErebus is experimental coordination and shielded-settlement infrastructure for AI agents.\n\n[Open the public demo](https://erebus-private-agents",
+    "churn_pct": 1.8,
+    "summary": "Provide infrastructure for autonomous AI agent negotiations and settlements.",
+    "description_long": "The project enables AI agents to negotiate and settle transactions securely through encrypted channels, ensuring that the negotiation process remains private. It aims to solve the issue of transparency in agent-to-agent commerce by providing atomic settlements and controlled disclosure of transaction details, preventing unauthorized observers from gleaning insights from metadata alone.",
+    "latest_push": "Selected input and changed the payer in the client implementation.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 321,
+    "deletions": 28,
+    "assessment": null
+  },
+  {
+    "slug": "philoxenia",
+    "name": "philoxenia",
+    "one_liner": "Private P2P hospitality on Starknet — STRK20 Private Sprint",
+    "category": "Other",
+    "repo_url": "https://github.com/SergioSSantiago/philoxenia",
+    "demo_url": "https://philoxenia-iota.vercel.app",
+    "demo_video": "https://philoxenia-iota.vercel.app/demo/philoxenia-commercial.mp4",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": true,
+    "star_reason": "It applies privacy to a social trust network not typically associated with privacy.",
+    "contracts": [
+      {
+        "address": "0x056a817104ad7544a55873584f3d8fb41a780e5466d152b3e1f12d578e75defb",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x030533c6110ee5c414a5678bd71115be738852d709c74d8136fa965271c2e1f3",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x004c0322af24bb710f3aa0e48293517777188b42d9c4428b77304008ad0ea712",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x7ef1e214d5c5e99a4f8d27ba459326f4ec0bfaba8525824d1a36754608b60f9",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x6beeb2d0b1d78563182cc9859960ba325d44b71860b7c067479456e90e10634",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0xd081e258a00fa10af08243e2ccf6d2e5cf28076002a499223a9e5258b0976d",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      }
+    ],
+    "verified_txs": 2,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-17T17:35:39Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "SergioSSantiago",
+        "name": "Sergio Sapina Santiago",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44295455?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Cursor",
+        "name": "Cursor",
+        "avatar_url": "",
+        "commits": 100
+      }
+    ],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "356a34d1f7a2dd52034e9abf470027dc9d2beced",
+    "readme_hash": "9302:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
+    "churn_pct": 0.2,
+    "summary": "Facilitate private peer-to-peer hospitality on Starknet.",
+    "description_long": "This project creates a trust-based network for private hospitality where listings are only visible to selected individuals, ensuring privacy. It uses Cairo for trustless escrow settlements and enables private payments via STRK20 while managing various roles like Hosts and Connectors within the application.",
+    "latest_push": "Displayed DAI shield beside STRK on Home balances and payment options.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 13,
+    "deletions": 12,
+    "assessment": null
+  },
+  {
     "slug": "redpocket",
     "name": "Redpocket",
     "one_liner": "Password red packets: one link, N shares, each claim lands in a shielded STRK20 balance.",
@@ -73,7 +479,6 @@
     ],
     "head_sha": "e3f7b90d9633fef5d1ca3e2e9a0fa87b10c689a0",
     "readme_hash": "6395:# Redpacket\n\nLive demo: [https://redpocket-virid.vercel.app/](https://redpocket-virid.vercel.app/) — Ready wallet, Starknet Mainnet.\n\nDrop a password into a group chat. People race to claim. Each shar",
-    "churn_pct": 0.1,
     "summary": "Facilitate private group rewards through password-protected claims.",
     "description_long": "This project allows users to drop a password in a chat for others to claim rewards, either through equal sharing or a lucky draw. Claims are directed to a shielded STRK20 balance, ensuring privacy, with the technical challenge being the creation of Merkle tickets and maintaining anonymity throughout the claim process while leveraging Starknet's functionality.",
     "latest_push": "Clarified public claim parts, improved RPC proxy, and fixed chat link previews.",
@@ -112,166 +517,7 @@
     "has_readme": true,
     "additions": 1,
     "deletions": 1,
-    "assessment": null
-  },
-  {
-    "slug": "erebus",
-    "name": "Erebus",
-    "one_liner": "",
-    "category": "Other",
-    "repo_url": "https://github.com/PoulavBhowmick03/Erebus",
-    "demo_url": "https://erebus-private-agents.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T17:18:58Z",
-    "stars": 2,
-    "builders": [
-      {
-        "login": "PoulavBhowmick03",
-        "name": "PoulavBhowmick03",
-        "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
-      },
-      {
-        "login": "ishitab02",
-        "name": "ishitab02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/139248026?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "14199c8de3169ce8ef05746663be8556cfea4820",
-    "readme_hash": "9711:# Erebus\n\n**Negotiate in darkness, settle in silence.**\n\nErebus is experimental coordination and shielded-settlement infrastructure for AI agents.\n\n[Open the public demo](https://erebus-private-agents",
-    "churn_pct": 4,
-    "summary": "Provide infrastructure for autonomous AI agent negotiations and settlements.",
-    "description_long": "The project enables AI agents to negotiate and settle transactions securely through encrypted channels, ensuring that the negotiation process remains private. It aims to solve the issue of transparency in agent-to-agent commerce by providing atomic settlements and controlled disclosure of transaction details, preventing unauthorized observers from gleaning insights from metadata alone.",
-    "latest_push": "Selected input and changed the payer in the client implementation.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 700,
-    "deletions": 63,
-    "assessment": null
-  },
-  {
-    "slug": "philoxenia",
-    "name": "philoxenia",
-    "one_liner": "Private P2P hospitality on Starknet — STRK20 Private Sprint",
-    "category": "Other",
-    "repo_url": "https://github.com/SergioSSantiago/philoxenia",
-    "demo_url": "https://philoxenia-iota.vercel.app",
-    "demo_video": "https://philoxenia-iota.vercel.app/demo/philoxenia-commercial.mp4",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": true,
-    "star_reason": "It applies privacy to a social trust network not typically associated with privacy.",
-    "contracts": [
-      {
-        "address": "0x056a817104ad7544a55873584f3d8fb41a780e5466d152b3e1f12d578e75defb",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x030533c6110ee5c414a5678bd71115be738852d709c74d8136fa965271c2e1f3",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x004c0322af24bb710f3aa0e48293517777188b42d9c4428b77304008ad0ea712",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x7ef1e214d5c5e99a4f8d27ba459326f4ec0bfaba8525824d1a36754608b60f9",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x6beeb2d0b1d78563182cc9859960ba325d44b71860b7c067479456e90e10634",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0xd081e258a00fa10af08243e2ccf6d2e5cf28076002a499223a9e5258b0976d",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      }
-    ],
-    "verified_txs": 2,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T17:16:36Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "SergioSSantiago",
-        "name": "Sergio Sapina Santiago",
-        "avatar_url": "https://avatars.githubusercontent.com/u/44295455?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Cursor",
-        "name": "Cursor",
-        "avatar_url": "",
-        "commits": 100
-      }
-    ],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "6e223a1501b2c33248bbcd7344a1e68a809e508a",
-    "readme_hash": "9274:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
-    "churn_pct": 0.7,
-    "summary": "Facilitate private peer-to-peer hospitality on Starknet.",
-    "description_long": "This project creates a trust-based network for private hospitality where listings are only visible to selected individuals, ensuring privacy. It uses Cairo for trustless escrow settlements and enables private payments via STRK20 while managing various roles like Hosts and Connectors within the application.",
-    "latest_push": "Displayed DAI shield beside STRK on Home balances and payment options.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 75,
-    "deletions": 19,
+    "churn_pct": 0.1,
     "assessment": null
   },
   {
@@ -312,7 +558,6 @@
     ],
     "head_sha": "3f957db22cbbb1b09a41b5ac639556099dafd4c5",
     "readme_hash": "3958:# Portage.fun\n\n**Live demo:** https://portage-topaz.vercel.app\n\n![Portage kickoff](docs/screenshots/kickoff.png)\n\n![Portage game dashboard](docs/screenshots/dashboard.png)\n\n![Portage spatial auto-hunt",
-    "churn_pct": 52.1,
     "summary": "Create and evolve creatures in a cozy idle RPG on Starknet.",
     "description_long": "The project offers a playable top-down idle RPG with features like tile movement, NPCs, and spatial combat. It integrates local storage for progress and employs Cairo for creature mechanics and evolution, while preparing for future Starknet interactions and privacy features. The challenging aspect lies in securely managing offline progress and ensuring private transactions through STRK20 integration.",
     "latest_push": "Shipped a playable local idle RPG loop with an explorable top-down world.",
@@ -331,6 +576,7 @@
     "has_readme": true,
     "additions": 4766,
     "deletions": 19,
+    "churn_pct": 52.1,
     "assessment": null
   },
   {
@@ -377,7 +623,6 @@
     ],
     "head_sha": "f452d36b388be6a719038b30bcf58308ae032848",
     "readme_hash": "4928:# STRKWORLD\n\n**A 2D top-down city where the buildings are Starknet privacy protocols.**\n\nWalk around a shared pseudonymous world, step into a building, and use a real\nprivacy-preserving protocol with ",
-    "churn_pct": 0.9,
     "summary": "Create a 2D city that simulates Starknet privacy protocols.",
     "description_long": "This project involves building a 2D top-down city where each building represents a privacy protocol on Starknet. The challenge lies in implementing a system where financial buildings can only operate if they have an approved privacy execution path, ensuring that no sensitive data is exposed within the application. The architecture separates concerns among various packages, maintaining a clear boundary between the game mechanics and financial operations.",
     "latest_push": "Deployed scaffolding with header gate, backend container, and ops runbook.",
@@ -396,6 +641,7 @@
     "has_readme": true,
     "additions": 154,
     "deletions": 5,
+    "churn_pct": 0.9,
     "assessment": null
   },
   {
@@ -436,7 +682,6 @@
     ],
     "head_sha": "e97b979da945f2071b38e1bf006e046e8bcb227f",
     "readme_hash": "9286:# 🔒 STRK20 Privacy Wallet (Umbra Mode)\n\n> **Umbra-grade privacy UX on Starknet — fully powered by the native STRK20 Note-Based Privacy Pool.**\n\nBuilt by **Jai Bhati** ([@SmratJay](https://github.com/",
-    "churn_pct": 1.9,
     "summary": "Enable private transactions with STRK20 through a sleek wallet interface.",
     "description_long": "This project integrates the STRK20 Privacy Pool on Starknet to facilitate private transactions using zero-knowledge cryptography. Key challenges addressed include implementing a single registered viewing key for transaction visibility and developing an efficient scanning mechanism for encrypted UTXO notes, which avoids public address exposure.",
     "latest_push": "Fixed ERC20 transfer logic to deduct balance and mint spendable UTXO.",
@@ -475,86 +720,7 @@
     "has_readme": true,
     "additions": 56,
     "deletions": 38,
-    "assessment": null
-  },
-  {
-    "slug": "whisperpay",
-    "name": "whisperpay",
-    "one_liner": "",
-    "category": "Payments",
-    "repo_url": "https://github.com/bugsm/whisperpay",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "zanexyzx",
-    "inspired_by": "IDEA-11",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T16:48:09Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "bugsm",
-        "name": "bugsm",
-        "avatar_url": "https://avatars.githubusercontent.com/u/121507446?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 8
-      }
-    ],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "1ad8b21896af2b5672d2fb5e52a46ca6c499ea54",
-    "readme_hash": "6001:# Whisper Pay\n\nOne-link private payment requests on Starknet, powered by STRK20 shielded transfers.\n\n## What is this?\n\nWhisper Pay is a one-link private payment request tool built on STRK20. A user ge",
-    "summary": "Facilitate private payments using shareable links on Starknet.",
-    "description_long": "Users can generate shareable payment links that route transactions through STRK20's shielded transfers, ensuring privacy. When a payer uses the link, their payment details remain hidden on-chain, while the recipient can still see their incoming payments. The system allows for creating and managing these links simply, making it useful for freelancers and small businesses.",
-    "latest_push": "Fixed wallet references for user registration and shielding.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 811,
-    "deletions": 53,
-    "churn_pct": 23.1,
+    "churn_pct": 1.9,
     "assessment": null
   },
   {
@@ -802,101 +968,6 @@
     "additions": 371,
     "deletions": 130,
     "churn_pct": 13.7,
-    "assessment": null
-  },
-  {
-    "slug": "zkpayslip",
-    "name": "zkpayslip",
-    "one_liner": "Private payroll on Starknet — shielded salary disbursements and one-time, verifier-bound income proofs on the STRK20 privacy pool.",
-    "category": "Payments",
-    "repo_url": "https://github.com/EndPx/zkpayslip",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "RFP-11",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x051c29216ddd5e9016fad4380db34e895dc8176f58ec4754cb3b4c4f14bda8b3",
-        "network": "sepolia"
-      }
-    ],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T15:59:20Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "EndPx",
-        "name": "EndPx",
-        "avatar_url": "https://avatars.githubusercontent.com/u/127120051?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 13
-      }
-    ],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "4ce53f75db849d5d37da8de8ff44bacca551058e",
-    "readme_hash": "8224:# zkPayslip\n\nPrivate payroll on Starknet: salaries move invisibly inside the STRK20 privacy pool while any employee can still prove their income to exactly one verifier, once.\n\n## Live deployment\n\n| C",
-    "summary": "Enable private payroll verification on Starknet through zk technology.",
-    "description_long": "This project allows employees to receive their salaries from a privacy pool while still proving their income to a specific verifier. It achieves privacy for the salary transfers inside the pool, while the contract ensures necessary disclosures for verification without revealing sensitive data. The challenge lies in managing timing correlations and ensuring a larger anonymity set as more transactions occur, addressing these concerns with a structured layer of disclosure.",
-    "latest_push": "Deployed the contract to Sepolia and updated related documentation.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 199,
-    "deletions": 5,
-    "churn_pct": 3.7,
     "assessment": null
   },
   {
@@ -1463,68 +1534,6 @@
     "additions": 199,
     "deletions": 56,
     "churn_pct": 13.6,
-    "assessment": null
-  },
-  {
-    "slug": "stk402",
-    "name": "stk402",
-    "one_liner": "",
-    "category": "Other",
-    "repo_url": "https://github.com/Sarthib7/stk402",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T12:30:14Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Sarthib7",
-        "name": "sarthib7",
-        "avatar_url": "https://avatars.githubusercontent.com/u/112841873?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14"
-    ],
-    "head_sha": "1784f20f345315db0e3cdf3f7254c0abf42c1286",
-    "readme_hash": "11616:# stk402\n\nAmount-confidential STRK20 payments for x402 agents on Starknet.\n\nSTK402 adds an encrypted x402 payment scheme for STRK20. The agent and server exchange encrypted payment terms and receipt m",
-    "summary": "Enable encrypted STRK20 payments for x402 agents on Starknet.",
-    "description_long": "This project implements a payment scheme that allows for encrypted transactions of STRK20 tokens between agents and a server using a secure protocol. It tackles the challenge of ensuring privacy for both payer and recipient by employing encryption methods like X25519 and AES-256-GCM to protect sensitive payment details from unauthorized access.",
-    "latest_push": "Locked demo_url in docs and added content to /SKILL.md.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 104,
-    "deletions": 12,
-    "churn_pct": 1.5,
     "assessment": null
   },
   {
