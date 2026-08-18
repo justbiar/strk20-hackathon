@@ -52,7 +52,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-08-18T00:36:00Z",
+    "pushed_at": "2026-08-18T01:57:43Z",
     "stars": 0,
     "builders": [
       {
@@ -75,9 +75,9 @@
       "2026-08-17",
       "2026-08-18"
     ],
-    "head_sha": "135fcec2597875e000b337dbc6b50ebdbed005d2",
+    "head_sha": "7bb36f9b3278dcd373a36ead64a61de8ad57ad8b",
     "readme_hash": "9313:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
-    "churn_pct": 0.7,
+    "churn_pct": 0.9,
     "summary": "Facilitate private peer-to-peer hospitality on Starknet.",
     "description_long": "This project creates a trust-based network for private hospitality where listings are only visible to selected individuals, ensuring privacy. It uses Cairo for trustless escrow settlements and enables private payments via STRK20 while managing various roles like Hosts and Connectors within the application.",
     "latest_push": "Displayed DAI shield beside STRK on Home balances and payment options.",
@@ -89,8 +89,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 52,
-    "deletions": 54,
+    "additions": 65,
+    "deletions": 63,
     "assessment": null
   },
   {
@@ -137,7 +137,6 @@
     ],
     "head_sha": "888bea8edd8eec872f40948ecc8f9614992bc9e9",
     "readme_hash": "2777:# VINSS — Private Deal Room on Starknet\n\nTwo parties negotiate, agree on terms, and settle payment inside one\nencrypted timeline. Built on STRK20's privacy pool via application-specific\nCairo helper c",
-    "churn_pct": 4.7,
     "summary": "Facilitate encrypted negotiation and settlement in a private deal room.",
     "description_long": "Two parties can negotiate and settle payments within an encrypted timeline using STRK20's privacy pool. The project uses Cairo helper contracts to manage messaging, offers, and private escrow, while ensuring that sensitive information is encrypted client-side before being sent as calldata. It also includes a server-side agent for analysis and drafting, but without transaction-signing capabilities.",
     "latest_push": "Fixed messaging revenue flow, wallet architecture, and contract test discovery.",
@@ -151,6 +150,7 @@
     "has_readme": true,
     "additions": 396,
     "deletions": 72,
+    "churn_pct": 4.7,
     "assessment": null
   },
   {
@@ -196,7 +196,6 @@
     ],
     "head_sha": "989f02914c1d21801f6dea822e8d10616b03ab4c",
     "readme_hash": "2265:# Ownerz — Sell Files. Post-Quantum Delivery.\n\n## Core Value\nA marketplace where anyone can monetize private data on blockchain with anonymous transactions, no intermediaries, no hidden costs.\n\n## How",
-    "churn_pct": 2.3,
     "summary": "Facilitates anonymous data transactions using Starknet and post-quantum encryption.",
     "description_long": "Users upload encrypted files to Filecoin, connect their Starknet wallet, and only share a CID and price on the smart contract. Purchases are made anonymously using ZK-proofs, with buyers receiving decryption keys securely after payment. The system ensures that data remains encrypted on IPFS and is only accessible to verified buyers.",
     "latest_push": "Deployed Cloudflare Pages with critical bug fixes and a hackathon popup.",
@@ -235,6 +234,7 @@
     "has_readme": true,
     "additions": 24,
     "deletions": 62,
+    "churn_pct": 2.3,
     "assessment": null
   },
   {
