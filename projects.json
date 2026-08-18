@@ -52,7 +52,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-08-18T01:57:43Z",
+    "pushed_at": "2026-08-18T03:17:10Z",
     "stars": 0,
     "builders": [
       {
@@ -75,9 +75,9 @@
       "2026-08-17",
       "2026-08-18"
     ],
-    "head_sha": "7bb36f9b3278dcd373a36ead64a61de8ad57ad8b",
-    "readme_hash": "9313:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
-    "churn_pct": 0.9,
+    "head_sha": "6966367ad70d470c3710df0f78a4ce53822f333e",
+    "readme_hash": "9319:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
+    "churn_pct": 0.8,
     "summary": "Facilitate private peer-to-peer hospitality on Starknet.",
     "description_long": "This project creates a trust-based network for private hospitality where listings are only visible to selected individuals, ensuring privacy. It uses Cairo for trustless escrow settlements and enables private payments via STRK20 while managing various roles like Hosts and Connectors within the application.",
     "latest_push": "Displayed DAI shield beside STRK on Home balances and payment options.",
@@ -89,8 +89,111 @@
       }
     ],
     "has_readme": true,
-    "additions": 65,
-    "deletions": 63,
+    "additions": 62,
+    "deletions": 60,
+    "assessment": null
+  },
+  {
+    "slug": "cloakra",
+    "name": "Cloakra",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/mrnetwork0001/Cloakra",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-18T02:49:48Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "mrnetwork0001",
+        "name": "mrnetwork0001",
+        "avatar_url": "https://avatars.githubusercontent.com/u/255576652?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18"
+    ],
+    "head_sha": "f6ff88c9ad1520894456c71da8f8824f0296f12c",
+    "readme_hash": "3990:# 🛡️ Cloakra\n\n**Shielded capital allocation on Starknet Mainnet, powered by the STRK20 Privacy Pool.**\n\nGrants, bug bounties, and contributor payouts are the most identity-revealing transactions an o",
+    "churn_pct": 43.2,
+    "summary": "Enable private allocation of grants and bounties on Starknet.",
+    "description_long": "Cloakra uses the STRK20 Privacy Pool to keep transactions like grants and bounties private, allowing organizations to disburse funds without revealing recipient information. It features modules like StealthSplit and GhostBounty, which facilitate anonymous payments while maintaining public visibility on the organization’s deposits. The technical challenge addressed is ensuring that the link between deposits and withdrawals remains private without losing essential on-chain traceability.",
+    "latest_push": "Implemented transaction layer features including live fee and hash verifier.",
+    "tooling": [],
+    "has_readme": true,
+    "additions": 670,
+    "deletions": 126,
+    "assessment": null
+  },
+  {
+    "slug": "chaoskeyplus-appbuild",
+    "name": "ChaosKey+",
+    "one_liner": "Physical-chaos entropy device with a Ready Wallet API tab for STRK20 shield, private transfer, and unshield.",
+    "category": "Tooling",
+    "repo_url": "https://github.com/doodabug/Chaoskeyplus-appbuild",
+    "demo_url": "https://mobile-app-build-778.preview.emergentagent.com",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-18T02:29:13Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "emergent-agent-e1",
+        "name": "emergent-agent-e1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/222461215?v=4"
+      },
+      {
+        "login": "doodabug",
+        "name": "doodabug",
+        "avatar_url": "https://avatars.githubusercontent.com/u/272664821?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "head_sha": "ae0369711dc33677ac8bcd0254641306e043a45d",
+    "readme_hash": "10303:# ChaosKey+ M3\n\n**A camera-entropy cryptographic device with STRK20 privacy on Starknet.**\n\nChaosKey+ turns your phone into a physical randomness generator. Every second, it hashes visual noise from y",
+    "summary": "Create a physical-chaos entropy device with Ready Wallet API integration.",
+    "description_long": "This project implements a physical-chaos entropy device that interacts with the Starknet STRK20 privacy pool via the user's Ready wallet. The challenge lies in ensuring that the dapp maintains privacy while facilitating actions like shielding and private transfers without holding a viewing key or dealing with ERC-20 tokens directly.",
+    "latest_push": "Fixed Ready discovery and improved rescan functionality on Pool.",
+    "tooling": [],
+    "has_readme": true,
+    "additions": 31,
+    "deletions": 0,
+    "churn_pct": 0.7,
     "assessment": null
   },
   {
@@ -389,59 +492,6 @@
     "additions": 300,
     "deletions": 0,
     "churn_pct": 6.1,
-    "assessment": null
-  },
-  {
-    "slug": "chaoskeyplus-appbuild",
-    "name": "ChaosKey+",
-    "one_liner": "Physical-chaos entropy device with a Ready Wallet API tab for STRK20 shield, private transfer, and unshield.",
-    "category": "Tooling",
-    "repo_url": "https://github.com/doodabug/Chaoskeyplus-appbuild",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T23:06:17Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "emergent-agent-e1",
-        "name": "emergent-agent-e1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/222461215?v=4"
-      },
-      {
-        "login": "doodabug",
-        "name": "doodabug",
-        "avatar_url": "https://avatars.githubusercontent.com/u/272664821?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "ae0369711dc33677ac8bcd0254641306e043a45d",
-    "readme_hash": "10303:# ChaosKey+ M3\n\n**A camera-entropy cryptographic device with STRK20 privacy on Starknet.**\n\nChaosKey+ turns your phone into a physical randomness generator. Every second, it hashes visual noise from y",
-    "summary": "Create a physical-chaos entropy device with Ready Wallet API integration.",
-    "description_long": "This project implements a physical-chaos entropy device that interacts with the Starknet STRK20 privacy pool via the user's Ready wallet. The challenge lies in ensuring that the dapp maintains privacy while facilitating actions like shielding and private transfers without holding a viewing key or dealing with ERC-20 tokens directly.",
-    "latest_push": "Fixed Ready discovery and improved rescan functionality on Pool.",
-    "tooling": [],
-    "has_readme": true,
-    "additions": 31,
-    "deletions": 0,
-    "churn_pct": 0.7,
     "assessment": null
   },
   {
@@ -2166,55 +2216,6 @@
     "additions": 473,
     "deletions": 3,
     "churn_pct": 57.2,
-    "assessment": null
-  },
-  {
-    "slug": "cloakra",
-    "name": "Cloakra",
-    "one_liner": "",
-    "category": "Other",
-    "repo_url": "https://github.com/mrnetwork0001/Cloakra",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-17T05:51:14Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "mrnetwork0001",
-        "name": "mrnetwork0001",
-        "avatar_url": "https://avatars.githubusercontent.com/u/255576652?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17"
-    ],
-    "head_sha": "1c8e7b03e403df5fae8b2b208c67bf277b0418c5",
-    "readme_hash": "3990:# 🛡️ Cloakra\n\n**Shielded capital allocation on Starknet Mainnet, powered by the STRK20 Privacy Pool.**\n\nGrants, bug bounties, and contributor payouts are the most identity-revealing transactions an o",
-    "summary": "Enable private allocation of grants and bounties on Starknet.",
-    "description_long": "Cloakra uses the STRK20 Privacy Pool to keep transactions like grants and bounties private, allowing organizations to disburse funds without revealing recipient information. It features modules like StealthSplit and GhostBounty, which facilitate anonymous payments while maintaining public visibility on the organization’s deposits. The technical challenge addressed is ensuring that the link between deposits and withdrawals remains private without losing essential on-chain traceability.",
-    "latest_push": "Implemented transaction layer features including live fee and hash verifier.",
-    "tooling": [],
-    "has_readme": true,
-    "additions": 608,
-    "deletions": 9,
-    "churn_pct": 45.4,
     "assessment": null
   },
   {
