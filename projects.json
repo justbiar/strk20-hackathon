@@ -52,7 +52,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-08-18T03:17:10Z",
+    "pushed_at": "2026-08-18T03:56:25Z",
     "stars": 0,
     "builders": [
       {
@@ -75,9 +75,9 @@
       "2026-08-17",
       "2026-08-18"
     ],
-    "head_sha": "6966367ad70d470c3710df0f78a4ce53822f333e",
+    "head_sha": "512ad248235b0d7f188fd6536cff13a8329a2565",
     "readme_hash": "9319:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
-    "churn_pct": 0.8,
+    "churn_pct": 0.4,
     "summary": "Facilitate private peer-to-peer hospitality on Starknet.",
     "description_long": "This project creates a trust-based network for private hospitality where listings are only visible to selected individuals, ensuring privacy. It uses Cairo for trustless escrow settlements and enables private payments via STRK20 while managing various roles like Hosts and Connectors within the application.",
     "latest_push": "Displayed DAI shield beside STRK on Home balances and payment options.",
@@ -89,8 +89,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 62,
-    "deletions": 60,
+    "additions": 32,
+    "deletions": 29,
     "assessment": null
   },
   {
@@ -133,7 +133,6 @@
     ],
     "head_sha": "f6ff88c9ad1520894456c71da8f8824f0296f12c",
     "readme_hash": "3990:# 🛡️ Cloakra\n\n**Shielded capital allocation on Starknet Mainnet, powered by the STRK20 Privacy Pool.**\n\nGrants, bug bounties, and contributor payouts are the most identity-revealing transactions an o",
-    "churn_pct": 43.2,
     "summary": "Enable private allocation of grants and bounties on Starknet.",
     "description_long": "Cloakra uses the STRK20 Privacy Pool to keep transactions like grants and bounties private, allowing organizations to disburse funds without revealing recipient information. It features modules like StealthSplit and GhostBounty, which facilitate anonymous payments while maintaining public visibility on the organization’s deposits. The technical challenge addressed is ensuring that the link between deposits and withdrawals remains private without losing essential on-chain traceability.",
     "latest_push": "Implemented transaction layer features including live fee and hash verifier.",
@@ -141,6 +140,7 @@
     "has_readme": true,
     "additions": 670,
     "deletions": 126,
+    "churn_pct": 43.2,
     "assessment": null
   },
   {
